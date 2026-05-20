@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Twin Cities Latitude Lines</title>
+    <style>
+      :root {
+        --bg: #fbfbfb;
+        --fg: #2a2f3a;
+        --muted: #8a93a6;
+      }
+
+      html, body {
+        margin: 0;
+        padding: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font-family: "Space Grotesk", "Fira Sans", system-ui, sans-serif;
+      }
+
+      .page {
+        max-width: 1400px;
+        margin: 24px auto 32px;
+        padding: 0 20px;
+      }
+
+      .title {
+        font-weight: 700;
+        font-size: clamp(28px, 4vw, 42px);
+        margin: 0 0 6px 0;
+      }
+
+
+
+      #chart {
+        width: 100%;
+        min-height: 820px;
+        border-radius: 16px;
+        box-shadow: 0 12px 44px rgba(6, 14, 32, 0.5);
+      }
+
+      .globe-outline {
+        fill: beige;
+        stroke: rgba(236, 240, 247, 0.45);
+        stroke-width: 1.1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="title">Twin Cities Latitude Lines</div>
+      <div id="chart"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script>
+      const citiesUrl = "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-12/cities.csv";
+
+      const chart = d3.select("#chart");
+      const margin = { top: 24, right: 24, bottom: 24, left: 24 };
+
+      function render(data) {
+        chart.selectAll("*").remove();
+        const width = chart.node().clientWidth;
+        const height = Math.max(820, Math.ceil(width * 0.6));
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+
+        const svg = chart
+          .append("svg")
+          .attr("viewBox", `0 0 ${width} ${height}`)
+          .attr("width", "100%")
+          .attr("height", height);
+
+        svg.append("rect")
+          .attr("width", width)
+          .attr("height", height)
+          .attr("fill", "#000");
+
+        const g = svg.append("g").attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+        const radius = Math.min(innerWidth, innerHeight) / 2 - 16;
+        const cx = innerWidth / 2;
+        const cy = innerHeight / 2;
+        const tiltDeg = 23;
+
+        const continentColors = {
+          "Africa": "#4A6984",
+          "Asia": "#6C5CE7",
+          "Europe": "#2E86AB",
+          "North America": "#F07178",
+          "Oceania": "#7FDBCA",
+          "South America": "#FFB454"
+        };
+
+        const globe = g.append("g")
+          .attr("transform", `translate(${cx}, ${cy}) rotate(${tiltDeg}) translate(${-cx}, ${-cy})`);
+
+        globe.append("circle")
+          .attr("class", "globe-outline")
+          .attr("cx", cx)
+          .attr("cy", cy)
+          .attr("r", radius);
+
+        const lineGroup = globe.append("g").attr("opacity", 0.7);
+
+        lineGroup
+          .selectAll("path")
+          .data(data)
+          .join("path")
+          .attr("d", d => {
+            const y = cy - (d.lat / 90) * radius;
+            const dy = y - cy;
+            const span = Math.sqrt(Math.max(0, radius * radius - dy * dy));
+            const x1 = cx - span;
+            const x2 = cx + span;
+            const bulge = (1 - Math.abs(d.lat) / 90) * radius * 0.18;
+            const cyControl = y - bulge;
+            return `M ${x1} ${y} Q ${cx} ${cyControl} ${x2} ${y}`;
+          })
+          .attr("fill", "none")
+          .attr("stroke", d => continentColors[d.continent] || "#8A93A6")
+          .attr("stroke-width", 0.7);
+      }
+
+      d3.csv(citiesUrl, d3.autoType).then(rows => {
+        const data = rows
+          .filter(d => d.lat !== null && d.continent)
+          .map(d => ({
+            lat: d.lat,
+            continent: d.continent
+          }));
+
+        render(data);
+        window.addEventListener("resize", () => render(data));
+      });
+    </script>
+  </body>
+</html>
