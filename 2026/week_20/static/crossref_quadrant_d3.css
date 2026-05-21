@@ -5,14 +5,14 @@
   --fg-soft: #5a6270;
   --gray: #8a93a6;
   --gray-light: #c7cdd7;
-  --primary: var(--east-asia);
-  --east-asia: #6c5ce7;
+  --primary: var(--fg);
+  --east-asia: #f78fb3;
   --europe: #2e86ab;
-  --latin-america: #ffb454;
+  --latin-america:  #8b7cf0;
   --mena: #7fdbca;
   --north-america: #f07178;
-  --south-asia: #8b7cf0;
-  --sub-saharan: #4a6984;
+  --south-asia: #ffb454;
+  --sub-saharan: #5874dc;
 }
 
 * {
