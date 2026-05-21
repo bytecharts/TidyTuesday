@@ -1,0 +1,252 @@
+:root {
+  --bg: #ffffff;
+  --bg-soft: #e8ecf2;
+  --fg: #2a2f3a;
+  --fg-soft: #5a6270;
+  --gray: #8a93a6;
+  --gray-light: #c7cdd7;
+  --primary: var(--east-asia);
+  --east-asia: #6c5ce7;
+  --europe: #2e86ab;
+  --latin-america: #ffb454;
+  --mena: #7fdbca;
+  --north-america: #f07178;
+  --south-asia: #8b7cf0;
+  --sub-saharan: #4a6984;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "FiraSans", sans-serif;
+}
+
+.wrap {
+  max-width: 1200px;
+  margin: 24px auto 32px;
+  padding: 0 20px 24px;
+}
+
+h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 32px;
+  margin: 0 0 6px;
+}
+
+.subtitle {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  margin: 0 0 16px;
+  color: var(--fg-soft);
+}
+
+.subtitle-hint {
+  font-size: 12px;
+  margin: -8px 0 16px;
+  color: var(--fg-soft);
+}
+
+.keycap {
+  display: inline-block;
+  padding: 1px 6px;
+  border: 1px solid var(--fg-soft);
+  border-radius: 4px;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: var(--fg-soft);
+}
+
+.controls button,
+.slider-wrap button {
+  font-family: "Fira Sans", sans-serif;
+  background: var(--bg);
+  border: 1px solid var(--fg);
+  color: var(--fg);
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.1s ease;
+}
+
+.controls button:hover,
+.slider-wrap button:hover {
+  background: var(--fg);
+  color: var(--bg);
+}
+
+.controls button:active,
+.slider-wrap button:active {
+  transform: translateY(1px);
+}
+
+.controls button:focus-visible,
+.slider-wrap button:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: 2px;
+}
+
+.slider-wrap {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.slider-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.slider-wrap input[type="range"] {
+  appearance: none;
+  width: 100%;
+  background: transparent;
+}
+
+
+
+.slider-wrap input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  background: var(--gray-light);
+  border-radius: 999px;
+}
+
+.slider-wrap input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: var(--fg);
+  border: 2px solid var(--bg);
+  margin-top: -5px;
+}
+
+.slider-wrap input[type="range"]::-moz-range-track {
+  height: 4px;
+  background: var(--fg);
+  border-radius: 999px;
+}
+
+.slider-wrap input[type="range"]::-moz-range-thumb {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: var(--fg);
+  border: 2px solid var(--bg);
+}
+
+.year-ticks {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--fg-soft);
+  padding: 0 2px;
+}
+
+.year-ticks span {
+  min-width: 24px;
+  text-align: center;
+}
+
+.caption {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 12px;
+  color: var(--fg-soft);
+  margin-top: 12px;
+}
+
+.tooltip {
+  position: absolute;
+  background: var(--bg);
+  border: 1px solid var(--bg-soft);
+  color: var(--fg);
+  font-family: "Fira Sans", sans-serif;
+  font-size: 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  pointer-events: none;
+  box-shadow: 0 16px 32px rgba(42, 47, 58, 0.18), 0 6px 14px rgba(42, 47, 58, 0.12);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  z-index: 10;
+}
+
+.tooltip-title {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.tooltip-meta {
+  color: var(--fg-soft);
+  margin-bottom: 6px;
+}
+
+.tooltip-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.tooltip-row + .tooltip-row {
+  margin-top: 2px;
+}
+
+.tooltip-value {
+  font-weight: 600;
+}
+
+.tooltip-section {
+  margin-top: 8px;
+}
+
+.tooltip .slope-graph {
+  display: block;
+  margin-top: 6px;
+}
+
+.tooltip .slope-label {
+  display: block;
+  margin-top: 4px;
+  font-size: 10px;
+  color: var(--fg-soft);
+}
+
+.legend-item {
+  cursor: pointer;
+}
+
+.legend-item.is-muted {
+  opacity: 0.45;
+}
+
+svg text {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}

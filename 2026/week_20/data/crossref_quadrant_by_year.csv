@@ -1,0 +1,1365 @@
+year,iso3_code,country,region,total_members,n_dois,dois_per_member
+2026,AUS,Australia,East Asia & Pacific,251,831875,3314.2430278884462
+2026,BRN,Brunei,East Asia & Pacific,5,941,188.2
+2026,CHN,China,East Asia & Pacific,185,531957,2875.443243243243
+2026,FJI,Fiji,East Asia & Pacific,1,93,93
+2026,HKG,"Hong Kong, China",East Asia & Pacific,147,149568,1017.469387755102
+2026,IDN,Indonesia,East Asia & Pacific,4517,3186520,705.4505202568076
+2026,JPN,Japan,East Asia & Pacific,684,2750691,4021.4780701754385
+2026,KHM,Cambodia,East Asia & Pacific,14,931,66.5
+2026,KOR,"Korea, Rep.",East Asia & Pacific,2618,1307120,499.28189457601223
+2026,LAO,Lao PDR,East Asia & Pacific,5,2397,479.4
+2026,MAC,Macao,East Asia & Pacific,10,698,69.8
+2026,MMR,Myanmar,East Asia & Pacific,3,106,35.333333333333336
+2026,MNG,Mongolia,East Asia & Pacific,22,7647,347.59090909090907
+2026,MYS,Malaysia,East Asia & Pacific,191,178877,936.5287958115183
+2026,NZL,New Zealand,East Asia & Pacific,51,134859,2644.294117647059
+2026,PHL,Philippines,East Asia & Pacific,176,58314,331.32954545454544
+2026,PNG,Papua New Guinea,East Asia & Pacific,1,49,49
+2026,PYF,French Polynesia,East Asia & Pacific,1,14,14
+2026,SGP,Singapore,East Asia & Pacific,66,791946,11999.181818181818
+2026,THA,Thailand,East Asia & Pacific,105,149472,1423.5428571428572
+2026,TLS,NA,East Asia & Pacific,4,319,79.75
+2026,TWN,Taiwan,East Asia & Pacific,35,37185,1062.4285714285713
+2026,VNM,Vietnam,East Asia & Pacific,171,118043,690.3099415204679
+2026,WSM,Samoa,East Asia & Pacific,1,11,11
+2026,ALB,Albania,Europe & Central Asia,19,4427,233
+2026,AND,Andorra,Europe & Central Asia,1,18,18
+2026,ARM,Armenia,Europe & Central Asia,61,22603,370.5409836065574
+2026,AUT,Austria,Europe & Central Asia,74,141317,1909.6891891891892
+2026,AZE,Azerbaijan,Europe & Central Asia,66,39899,604.530303030303
+2026,BEL,Belgium,Europe & Central Asia,63,315414,5006.571428571428
+2026,BGR,Bulgaria,Europe & Central Asia,90,309275,3436.3888888888887
+2026,BIH,Bosnia and Herzegovina,Europe & Central Asia,88,33318,378.6136363636364
+2026,BLR,Belarus,Europe & Central Asia,35,25241,721.1714285714286
+2026,CHE,Switzerland,Europe & Central Asia,161,5275969,32769.99378881988
+2026,CYP,Cyprus,Europe & Central Asia,11,34604,3145.818181818182
+2026,CZE,Czech Republic,Europe & Central Asia,131,206472,1576.1221374045801
+2026,DEU,Germany,Europe & Central Asia,289,9516488,32929.024221453285
+2026,DNK,Denmark,Europe & Central Asia,27,108759,4028.1111111111113
+2026,ESP,Spain,Europe & Central Asia,565,847335,1499.7079646017698
+2026,EST,Estonia,Europe & Central Asia,19,39873,2098.5789473684213
+2026,FIN,Finland,Europe & Central Asia,150,79964,533.0933333333334
+2026,FRA,France,Europe & Central Asia,161,3150093,19565.7950310559
+2026,FRO,Faeroe Islands,Europe & Central Asia,1,387,387
+2026,GBR,United Kingdom,Europe & Central Asia,732,28116603,38410.65983606558
+2026,GEO,Georgia,Europe & Central Asia,43,15137,352.0232558139535
+2026,GRC,Greece,Europe & Central Asia,46,201459,4379.54347826087
+2026,HRV,Croatia,Europe & Central Asia,213,186035,873.4037558685446
+2026,HUN,Hungary,Europe & Central Asia,332,217036,653.722891566265
+2026,IRL,Ireland,Europe & Central Asia,38,26593,699.8157894736842
+2026,ISL,Iceland,Europe & Central Asia,7,5712,816
+2026,ITA,Italy,Europe & Central Asia,162,349552,2157.7283950617284
+2026,KAZ,Kazakhstan,Europe & Central Asia,170,96009,564.7588235294118
+2026,KGZ,Kyrgyz Republic,Europe & Central Asia,34,12981,381.79411764705884
+2026,LTU,Lithuania,Europe & Central Asia,50,109197,2183.94
+2026,LUX,Luxembourg,Europe & Central Asia,5,57459,11491.8
+2026,LVA,Latvia,Europe & Central Asia,15,45788,3052.5333333333333
+2026,MCO,Monaco,Europe & Central Asia,3,791,263.6666666666667
+2026,MDA,Moldova,Europe & Central Asia,47,21710,461.9148936170213
+2026,MKD,"Macedonia, FYR",Europe & Central Asia,45,46377,1030.6
+2026,MNE,NA,Europe & Central Asia,13,7637,587.4615384615385
+2026,NLD,Netherlands,Europe & Central Asia,153,44460038,290588.4836601307
+2026,NOR,Norway,Europe & Central Asia,37,120459,3255.6486486486488
+2026,POL,Poland,Europe & Central Asia,378,765614,2025.4338624338625
+2026,PRT,Portugal,Europe & Central Asia,162,193391,1193.7716049382716
+2026,ROU,NA,Europe & Central Asia,268,197327,736.294776119403
+2026,RUS,Russian Federation,Europe & Central Asia,1564,2123113,1357.4891304347825
+2026,SRB,NA,Europe & Central Asia,108,191817,1776.0833333333333
+2026,SVK,Slovak Republic,Europe & Central Asia,47,100628,2141.021276595745
+2026,SVN,Slovenia,Europe & Central Asia,52,61503,1182.75
+2026,SWE,Sweden,Europe & Central Asia,126,104978,833.1587301587301
+2026,TJK,Tajikistan,Europe & Central Asia,9,3316,368.44444444444446
+2026,TUR,Turkey,Europe & Central Asia,1847,825331,446.8494856524093
+2026,UKR,Ukraine,Europe & Central Asia,616,993486,1612.801948051948
+2026,UZB,Uzbekistan,Europe & Central Asia,87,48050,552.2988505747127
+2026,VAT,Holy See,Europe & Central Asia,1,157,157
+2026,XKX,NA,Europe & Central Asia,8,2119,264.875
+2026,ARG,Argentina,Latin America & the Caribbean,133,136659,1027.5112781954888
+2026,BHS,"Bahamas, The",Latin America & the Caribbean,2,839,419.5
+2026,BLZ,Belize,Latin America & the Caribbean,2,176,88
+2026,BOL,Bolivia,Latin America & the Caribbean,42,8362,199.0952380952381
+2026,BRA,Brazil,Latin America & the Caribbean,1871,3106002,1660.0758952431854
+2026,BRB,Barbados,Latin America & the Caribbean,1,201,201
+2026,CHL,Chile,Latin America & the Caribbean,102,192433,1886.5980392156862
+2026,COL,Colombia,Latin America & the Caribbean,271,297084,1096.2509225092251
+2026,CRI,Costa Rica,Latin America & the Caribbean,32,40023,1250.71875
+2026,CUB,Cuba,Latin America & the Caribbean,1,93,93
+2026,DOM,Dominican Republic,Latin America & the Caribbean,19,5177,272.4736842105263
+2026,ECU,Ecuador,Latin America & the Caribbean,225,120218,534.3022222222222
+2026,GTM,Guatemala,Latin America & the Caribbean,20,5002,250.1
+2026,GUY,Guyana,Latin America & the Caribbean,3,121,40.333333333333336
+2026,HND,Honduras,Latin America & the Caribbean,2,364,182
+2026,HTI,Haiti,Latin America & the Caribbean,1,34,34
+2026,JAM,Jamaica,Latin America & the Caribbean,3,3426,1142
+2026,MEX,Mexico,Latin America & the Caribbean,319,292687,917.5141065830721
+2026,NIC,Nicaragua,Latin America & the Caribbean,2,11575,5787.5
+2026,PAN,Panama,Latin America & the Caribbean,24,7421,309.2083333333333
+2026,PER,Peru,Latin America & the Caribbean,235,136014,578.7829787234042
+2026,PRI,Puerto Rico,Latin America & the Caribbean,12,6271,522.5833333333334
+2026,PRY,Paraguay,Latin America & the Caribbean,43,37219,865.5581395348837
+2026,SLV,El Salvador,Latin America & the Caribbean,9,8861,984.5555555555555
+2026,TTO,Trinidad and Tobago,Latin America & the Caribbean,4,202,50.5
+2026,URY,Uruguay,Latin America & the Caribbean,73,15292,209.4794520547945
+2026,VEN,Venezuela,Latin America & the Caribbean,38,25644,674.8421052631579
+2026,VGB,British Virgin Islands,Latin America & the Caribbean,2,372432,186216
+2026,AFG,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",28,54486,1945.9285714285713
+2026,ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan",57,335379,5883.8421052631575
+2026,BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan",5,4091,818.2
+2026,DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",143,98270,687.2027972027972
+2026,EGY,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",52,486631,9358.288461538461
+2026,IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",265,226933,856.3509433962264
+2026,ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan",25,18530,741.2
+2026,JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",58,49098,846.5172413793103
+2026,KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan",10,16548,1654.8
+2026,LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",21,7301,347.6666666666667
+2026,LBY,Libya,"Middle East, North Africa, Afghanistan & Pakistan",49,22718,463.6326530612245
+2026,MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",36,7858,218.27777777777777
+2026,MLT,Malta,"Middle East, North Africa, Afghanistan & Pakistan",4,209,52.25
+2026,OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan",13,8835,679.6153846153846
+2026,PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",491,251958,513.152749490835
+2026,PSE,NA,"Middle East, North Africa, Afghanistan & Pakistan",22,18080,821.8181818181819
+2026,QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan",14,13492,963.7142857142857
+2026,SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan",65,41745,642.2307692307693
+2026,SYR,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",5,2009,401.8
+2026,TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",15,1908,127.2
+2026,YEM,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",37,14704,397.4054054054054
+2026,CAN,Canada,North America,309,1261363,4082.080906148867
+2026,USA,United States,North America,2419,60546701,25029.640760644896
+2026,BGD,Bangladesh,South Asia,168,149057,887.2440476190476
+2026,BTN,Bhutan,South Asia,6,757,126.16666666666667
+2026,IND,India,South Asia,1568,2626788,1675.2474489795918
+2026,LKA,Sri Lanka,South Asia,32,35832,1119.75
+2026,MDV,Maldives,South Asia,3,196,65.33333333333333
+2026,NPL,Nepal,South Asia,50,63550,1271
+2026,AGO,Angola,Sub-Saharan Africa,6,633,105.5
+2026,BDI,Burundi,Sub-Saharan Africa,2,472,236
+2026,BEN,Benin,Sub-Saharan Africa,6,330,55
+2026,BFA,Burkina Faso,Sub-Saharan Africa,7,545,77.85714285714286
+2026,BWA,Botswana,Sub-Saharan Africa,1,24,24
+2026,CAF,Central African Republic,Sub-Saharan Africa,1,5,5
+2026,CIV,Cote d'Ivoire,Sub-Saharan Africa,2,156,78
+2026,CMR,Cameroon,Sub-Saharan Africa,9,830,92.22222222222223
+2026,COD,NA,Sub-Saharan Africa,23,2663,115.78260869565217
+2026,COG,"Congo, Rep.",Sub-Saharan Africa,1,599,599
+2026,COM,Comoros,Sub-Saharan Africa,1,94,94
+2026,ETH,Ethiopia (excludes Eritrea),Sub-Saharan Africa,16,1643,102.6875
+2026,GAB,Gabon,Sub-Saharan Africa,1,9,9
+2026,GHA,Ghana,Sub-Saharan Africa,38,7222,190.05263157894737
+2026,KEN,Kenya,Sub-Saharan Africa,79,43155,546.2658227848101
+2026,LBR,Liberia,Sub-Saharan Africa,1,16,16
+2026,MDG,Madagascar,Sub-Saharan Africa,4,315,78.75
+2026,MLI,Mali,Sub-Saharan Africa,5,781,156.2
+2026,MOZ,Mozambique,Sub-Saharan Africa,2,408,204
+2026,MRT,Mauritania,Sub-Saharan Africa,1,672,672
+2026,MUS,Mauritius,Sub-Saharan Africa,5,6135,1227
+2026,MWI,Malawi,Sub-Saharan Africa,2,32,16
+2026,NAM,Namibia,Sub-Saharan Africa,6,520,86.66666666666667
+2026,NER,Niger,Sub-Saharan Africa,1,25,25
+2026,NGA,Nigeria,Sub-Saharan Africa,190,96275,506.7105263157895
+2026,RWA,Rwanda,Sub-Saharan Africa,9,1523,169.22222222222223
+2026,SDN,Sudan,Sub-Saharan Africa,13,5745,441.9230769230769
+2026,SEN,Senegal,Sub-Saharan Africa,7,4748,678.2857142857143
+2026,SLE,Sierra Leone,Sub-Saharan Africa,1,26,26
+2026,SOM,Somalia,Sub-Saharan Africa,9,285,31.666666666666668
+2026,SSD,NA,Sub-Saharan Africa,1,1,1
+2026,TGO,Togo,Sub-Saharan Africa,1,631,631
+2026,TZA,Tanzania,Sub-Saharan Africa,30,6557,218.56666666666666
+2026,UGA,Uganda,Sub-Saharan Africa,22,6199,281.77272727272725
+2026,ZAF,South Africa,Sub-Saharan Africa,87,251047,2885.597701149425
+2026,ZMB,Zambia,Sub-Saharan Africa,6,1409,234.83333333333334
+2026,ZWE,Zimbabwe,Sub-Saharan Africa,6,618,103
+2025,AUS,Australia,East Asia & Pacific,243,812673,3344.3333333333335
+2025,BRN,Brunei,East Asia & Pacific,5,929,185.8
+2025,CHN,China,East Asia & Pacific,179,514592,2874.8156424581007
+2025,FJI,Fiji,East Asia & Pacific,1,91,91
+2025,HKG,"Hong Kong, China",East Asia & Pacific,129,134384,1041.7364341085272
+2025,IDN,Indonesia,East Asia & Pacific,4367,2988587,684.3569956491871
+2025,JPN,Japan,East Asia & Pacific,681,2729732,4008.417033773862
+2025,KHM,Cambodia,East Asia & Pacific,13,823,63.30769230769231
+2025,KOR,"Korea, Rep.",East Asia & Pacific,2600,1276238,490.8607692307692
+2025,LAO,Lao PDR,East Asia & Pacific,5,2000,400
+2025,MAC,Macao,East Asia & Pacific,8,383,47.875
+2025,MMR,Myanmar,East Asia & Pacific,3,94,31.333333333333332
+2025,MNG,Mongolia,East Asia & Pacific,18,7129,396.05555555555554
+2025,MYS,Malaysia,East Asia & Pacific,188,169256,900.2978723404256
+2025,NZL,New Zealand,East Asia & Pacific,50,132339,2646.78
+2025,PHL,Philippines,East Asia & Pacific,167,53663,321.3353293413174
+2025,PNG,Papua New Guinea,East Asia & Pacific,1,49,49
+2025,PYF,French Polynesia,East Asia & Pacific,1,13,13
+2025,SGP,Singapore,East Asia & Pacific,65,767316,11804.861538461539
+2025,THA,Thailand,East Asia & Pacific,95,135530,1426.6315789473683
+2025,TLS,NA,East Asia & Pacific,4,293,73.25
+2025,TWN,Taiwan,East Asia & Pacific,33,35810,1085.1515151515152
+2025,VNM,Vietnam,East Asia & Pacific,162,108573,670.2037037037037
+2025,WSM,Samoa,East Asia & Pacific,1,11,11
+2025,ALB,Albania,Europe & Central Asia,18,4011,222.83333333333334
+2025,AND,Andorra,Europe & Central Asia,1,10,10
+2025,ARM,Armenia,Europe & Central Asia,60,21284,354.73333333333335
+2025,AUT,Austria,Europe & Central Asia,72,137200,1905.5555555555557
+2025,AZE,Azerbaijan,Europe & Central Asia,60,34877,581.2833333333333
+2025,BEL,Belgium,Europe & Central Asia,62,311258,5020.290322580645
+2025,BGR,Bulgaria,Europe & Central Asia,85,295635,3478.0588235294117
+2025,BIH,Bosnia and Herzegovina,Europe & Central Asia,85,31097,365.84705882352944
+2025,BLR,Belarus,Europe & Central Asia,35,23893,682.6571428571428
+2025,CHE,Switzerland,Europe & Central Asia,158,5090463,32218.120253164558
+2025,CYP,Cyprus,Europe & Central Asia,10,31065,3106.5
+2025,CZE,Czech Republic,Europe & Central Asia,129,200787,1556.4883720930231
+2025,DEU,Germany,Europe & Central Asia,281,9362761,33319.434163701066
+2025,DNK,Denmark,Europe & Central Asia,27,106543,3946.037037037037
+2025,ESP,Spain,Europe & Central Asia,554,812099,1465.8826714801444
+2025,EST,Estonia,Europe & Central Asia,19,39422,2074.842105263158
+2025,FIN,Finland,Europe & Central Asia,144,64023,444.6041666666667
+2025,FRA,France,Europe & Central Asia,151,2871513,19016.64238410596
+2025,FRO,Faeroe Islands,Europe & Central Asia,1,384,384
+2025,GBR,United Kingdom,Europe & Central Asia,714,27520831,38544.581232492994
+2025,GEO,Georgia,Europe & Central Asia,42,13877,330.4047619047619
+2025,GRC,Greece,Europe & Central Asia,46,197545,4294.45652173913
+2025,HRV,Croatia,Europe & Central Asia,208,181670,873.4134615384615
+2025,HUN,Hungary,Europe & Central Asia,334,208891,625.4221556886228
+2025,IRL,Ireland,Europe & Central Asia,36,25507,708.5277777777778
+2025,ISL,Iceland,Europe & Central Asia,7,5512,787.4285714285714
+2025,ITA,Italy,Europe & Central Asia,154,314025,2039.1233766233765
+2025,KAZ,Kazakhstan,Europe & Central Asia,161,88996,552.7701863354038
+2025,KGZ,Kyrgyz Republic,Europe & Central Asia,33,11148,337.8181818181818
+2025,LTU,Lithuania,Europe & Central Asia,50,102624,2052.48
+2025,LUX,Luxembourg,Europe & Central Asia,3,55089,18363
+2025,LVA,Latvia,Europe & Central Asia,15,44163,2944.2
+2025,MCO,Monaco,Europe & Central Asia,3,284,94.66666666666667
+2025,MDA,Moldova,Europe & Central Asia,45,18837,418.6
+2025,MKD,"Macedonia, FYR",Europe & Central Asia,45,45623,1013.8444444444444
+2025,MNE,NA,Europe & Central Asia,13,7438,572.1538461538462
+2025,NLD,Netherlands,Europe & Central Asia,150,43656581,291043.87333333335
+2025,NOR,Norway,Europe & Central Asia,37,118758,3209.675675675676
+2025,POL,Poland,Europe & Central Asia,369,741246,2008.7967479674796
+2025,PRT,Portugal,Europe & Central Asia,160,186048,1162.8
+2025,ROU,NA,Europe & Central Asia,264,188507,714.0416666666666
+2025,RUS,Russian Federation,Europe & Central Asia,1551,2047276,1319.9716312056737
+2025,SRB,NA,Europe & Central Asia,98,185939,1897.3367346938776
+2025,SVK,Slovak Republic,Europe & Central Asia,48,97094,2022.7916666666667
+2025,SVN,Slovenia,Europe & Central Asia,52,59240,1139.2307692307693
+2025,SWE,Sweden,Europe & Central Asia,124,101131,815.5725806451613
+2025,TJK,Tajikistan,Europe & Central Asia,6,2928,488
+2025,TUR,Turkey,Europe & Central Asia,1813,786801,433.97738554881414
+2025,UKR,Ukraine,Europe & Central Asia,612,930718,1520.7810457516339
+2025,UZB,Uzbekistan,Europe & Central Asia,76,42093,553.8552631578947
+2025,VAT,Holy See,Europe & Central Asia,1,88,88
+2025,XKX,NA,Europe & Central Asia,8,1961,245.125
+2025,ARG,Argentina,Latin America & the Caribbean,130,132177,1016.7461538461539
+2025,BHS,"Bahamas, The",Latin America & the Caribbean,2,811,405.5
+2025,BLZ,Belize,Latin America & the Caribbean,2,168,84
+2025,BOL,Bolivia,Latin America & the Caribbean,39,7709,197.66666666666666
+2025,BRA,Brazil,Latin America & the Caribbean,1828,3004361,1643.52352297593
+2025,BRB,Barbados,Latin America & the Caribbean,1,201,201
+2025,CHL,Chile,Latin America & the Caribbean,97,188185,1940.0515463917525
+2025,COL,Colombia,Latin America & the Caribbean,267,291694,1092.4868913857679
+2025,CRI,Costa Rica,Latin America & the Caribbean,31,38951,1256.483870967742
+2025,CUB,Cuba,Latin America & the Caribbean,1,93,93
+2025,DOM,Dominican Republic,Latin America & the Caribbean,16,5058,316.125
+2025,ECU,Ecuador,Latin America & the Caribbean,213,110549,519.0093896713615
+2025,GTM,Guatemala,Latin America & the Caribbean,20,4848,242.4
+2025,GUY,Guyana,Latin America & the Caribbean,2,107,53.5
+2025,HND,Honduras,Latin America & the Caribbean,2,345,172.5
+2025,HTI,Haiti,Latin America & the Caribbean,1,33,33
+2025,JAM,Jamaica,Latin America & the Caribbean,3,3307,1102.3333333333333
+2025,MEX,Mexico,Latin America & the Caribbean,311,279521,898.7813504823151
+2025,NIC,Nicaragua,Latin America & the Caribbean,2,11492,5746
+2025,PAN,Panama,Latin America & the Caribbean,22,6554,297.90909090909093
+2025,PER,Peru,Latin America & the Caribbean,231,131501,569.2683982683983
+2025,PRI,Puerto Rico,Latin America & the Caribbean,12,5697,474.75
+2025,PRY,Paraguay,Latin America & the Caribbean,39,33620,862.0512820512821
+2025,SLV,El Salvador,Latin America & the Caribbean,7,8049,1149.857142857143
+2025,TTO,Trinidad and Tobago,Latin America & the Caribbean,4,202,50.5
+2025,URY,Uruguay,Latin America & the Caribbean,71,12749,179.56338028169014
+2025,VEN,Venezuela,Latin America & the Caribbean,35,23826,680.7428571428571
+2025,VGB,British Virgin Islands,Latin America & the Caribbean,2,365977,182988.5
+2025,AFG,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",26,50414,1939
+2025,ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan",56,327717,5852.089285714285
+2025,BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan",5,4088,817.6
+2025,DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",142,94047,662.3028169014085
+2025,EGY,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",51,465236,9122.274509803921
+2025,IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",250,214287,857.148
+2025,ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan",24,17721,738.375
+2025,JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",56,47085,840.8035714285714
+2025,KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan",10,16305,1630.5
+2025,LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",21,6551,311.95238095238096
+2025,LBY,Libya,"Middle East, North Africa, Afghanistan & Pakistan",42,19188,456.85714285714283
+2025,MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",34,7312,215.05882352941177
+2025,MLT,Malta,"Middle East, North Africa, Afghanistan & Pakistan",4,209,52.25
+2025,OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan",12,8549,712.4166666666666
+2025,PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",449,231381,515.3251670378619
+2025,PSE,NA,"Middle East, North Africa, Afghanistan & Pakistan",22,16700,759.0909090909091
+2025,QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan",12,13147,1095.5833333333333
+2025,SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan",57,32917,577.4912280701755
+2025,SYR,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",3,1893,631
+2025,TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",14,1726,123.28571428571429
+2025,YEM,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",36,13819,383.8611111111111
+2025,CAN,Canada,North America,294,1238668,4213.156462585034
+2025,USA,United States,North America,2354,59566926,25304.556499575192
+2025,BGD,Bangladesh,South Asia,156,133038,852.8076923076923
+2025,BTN,Bhutan,South Asia,6,719,119.83333333333333
+2025,IND,India,South Asia,1494,2502648,1675.132530120482
+2025,LKA,Sri Lanka,South Asia,26,33154,1275.1538461538462
+2025,MDV,Maldives,South Asia,3,194,64.66666666666667
+2025,NPL,Nepal,South Asia,50,60707,1214.14
+2025,AGO,Angola,Sub-Saharan Africa,5,551,110.2
+2025,BDI,Burundi,Sub-Saharan Africa,2,423,211.5
+2025,BEN,Benin,Sub-Saharan Africa,6,315,52.5
+2025,BFA,Burkina Faso,Sub-Saharan Africa,6,387,64.5
+2025,BWA,Botswana,Sub-Saharan Africa,1,24,24
+2025,CAF,Central African Republic,Sub-Saharan Africa,1,5,5
+2025,CIV,Cote d'Ivoire,Sub-Saharan Africa,1,137,137
+2025,CMR,Cameroon,Sub-Saharan Africa,8,694,86.75
+2025,COD,NA,Sub-Saharan Africa,20,2256,112.8
+2025,COG,"Congo, Rep.",Sub-Saharan Africa,1,581,581
+2025,COM,Comoros,Sub-Saharan Africa,1,73,73
+2025,ETH,Ethiopia (excludes Eritrea),Sub-Saharan Africa,15,1444,96.26666666666667
+2025,GAB,Gabon,Sub-Saharan Africa,1,9,9
+2025,GHA,Ghana,Sub-Saharan Africa,37,6491,175.43243243243242
+2025,KEN,Kenya,Sub-Saharan Africa,74,40368,545.5135135135135
+2025,LBR,Liberia,Sub-Saharan Africa,1,16,16
+2025,MDG,Madagascar,Sub-Saharan Africa,4,312,78
+2025,MLI,Mali,Sub-Saharan Africa,4,707,176.75
+2025,MOZ,Mozambique,Sub-Saharan Africa,1,239,239
+2025,MRT,Mauritania,Sub-Saharan Africa,1,634,634
+2025,MUS,Mauritius,Sub-Saharan Africa,5,5833,1166.6
+2025,MWI,Malawi,Sub-Saharan Africa,2,32,16
+2025,NAM,Namibia,Sub-Saharan Africa,5,502,100.4
+2025,NGA,Nigeria,Sub-Saharan Africa,164,88204,537.829268292683
+2025,RWA,Rwanda,Sub-Saharan Africa,9,1372,152.44444444444446
+2025,SDN,Sudan,Sub-Saharan Africa,13,5266,405.0769230769231
+2025,SEN,Senegal,Sub-Saharan Africa,7,4544,649.1428571428571
+2025,SLE,Sierra Leone,Sub-Saharan Africa,1,26,26
+2025,SOM,Somalia,Sub-Saharan Africa,9,257,28.555555555555557
+2025,SSD,NA,Sub-Saharan Africa,1,1,1
+2025,TGO,Togo,Sub-Saharan Africa,1,572,572
+2025,TZA,Tanzania,Sub-Saharan Africa,26,5384,207.07692307692307
+2025,UGA,Uganda,Sub-Saharan Africa,20,5362,268.1
+2025,ZAF,South Africa,Sub-Saharan Africa,86,241566,2808.906976744186
+2025,ZMB,Zambia,Sub-Saharan Africa,5,1343,268.6
+2025,ZWE,Zimbabwe,Sub-Saharan Africa,6,580,96.66666666666667
+2024,AUS,Australia,East Asia & Pacific,220,557597,2534.5318181818184
+2024,BRN,Brunei,East Asia & Pacific,5,877,175.4
+2024,CHN,China,East Asia & Pacific,154,471079,3058.9545454545455
+2024,FJI,Fiji,East Asia & Pacific,1,88,88
+2024,HKG,"Hong Kong, China",East Asia & Pacific,87,110911,1274.83908045977
+2024,IDN,Indonesia,East Asia & Pacific,3865,2283222,590.7430789133247
+2024,JPN,Japan,East Asia & Pacific,677,2689176,3972.194977843427
+2024,KHM,Cambodia,East Asia & Pacific,8,480,60
+2024,KOR,"Korea, Rep.",East Asia & Pacific,2554,1184204,463.66640563821454
+2024,LAO,Lao PDR,East Asia & Pacific,4,1749,437.25
+2024,MAC,Macao,East Asia & Pacific,3,132,44
+2024,MMR,Myanmar,East Asia & Pacific,1,53,53
+2024,MNG,Mongolia,East Asia & Pacific,12,5516,459.6666666666667
+2024,MYS,Malaysia,East Asia & Pacific,160,131702,823.1375
+2024,NZL,New Zealand,East Asia & Pacific,49,126147,2574.4285714285716
+2024,PHL,Philippines,East Asia & Pacific,124,35569,286.8467741935484
+2024,PYF,French Polynesia,East Asia & Pacific,1,7,7
+2024,SGP,Singapore,East Asia & Pacific,60,687034,11450.566666666668
+2024,THA,Thailand,East Asia & Pacific,74,57143,772.2027027027027
+2024,TLS,NA,East Asia & Pacific,2,181,90.5
+2024,TWN,Taiwan,East Asia & Pacific,33,32571,987
+2024,VNM,Vietnam,East Asia & Pacific,139,84746,609.68345323741
+2024,WSM,Samoa,East Asia & Pacific,1,11,11
+2024,ALB,Albania,Europe & Central Asia,15,3535,235.66666666666666
+2024,ARM,Armenia,Europe & Central Asia,53,16188,305.4339622641509
+2024,AUT,Austria,Europe & Central Asia,68,191975,2823.1617647058824
+2024,AZE,Azerbaijan,Europe & Central Asia,51,22946,449.921568627451
+2024,BEL,Belgium,Europe & Central Asia,53,288353,5440.622641509434
+2024,BGR,Bulgaria,Europe & Central Asia,76,255768,3365.3684210526317
+2024,BIH,Bosnia and Herzegovina,Europe & Central Asia,77,25900,336.3636363636364
+2024,BLR,Belarus,Europe & Central Asia,30,21071,702.3666666666667
+2024,CHE,Switzerland,Europe & Central Asia,146,4486311,30728.157534246577
+2024,CYP,Cyprus,Europe & Central Asia,10,32340,3234
+2024,CZE,Czech Republic,Europe & Central Asia,123,185990,1512.1138211382113
+2024,DEU,Germany,Europe & Central Asia,258,7010328,27171.81395348837
+2024,DNK,Denmark,Europe & Central Asia,24,93687,3903.625
+2024,ESP,Spain,Europe & Central Asia,505,719406,1424.5663366336635
+2024,EST,Estonia,Europe & Central Asia,16,37232,2327
+2024,FIN,Finland,Europe & Central Asia,136,57143,420.16911764705884
+2024,FRA,France,Europe & Central Asia,132,3093245,23433.674242424244
+2024,FRO,Faeroe Islands,Europe & Central Asia,1,368,368
+2024,GBR,United Kingdom,Europe & Central Asia,659,26323367,39944.411229135054
+2024,GEO,Georgia,Europe & Central Asia,36,9993,277.5833333333333
+2024,GRC,Greece,Europe & Central Asia,44,185594,4218.045454545455
+2024,HRV,Croatia,Europe & Central Asia,197,168577,855.7208121827412
+2024,HUN,Hungary,Europe & Central Asia,312,188500,604.1666666666666
+2024,IRL,Ireland,Europe & Central Asia,29,23507,810.5862068965517
+2024,ISL,Iceland,Europe & Central Asia,8,5029,628.625
+2024,ITA,Italy,Europe & Central Asia,137,277026,2022.087591240876
+2024,KAZ,Kazakhstan,Europe & Central Asia,139,67928,488.6906474820144
+2024,KGZ,Kyrgyz Republic,Europe & Central Asia,28,9212,329
+2024,LTU,Lithuania,Europe & Central Asia,45,93812,2084.711111111111
+2024,LUX,Luxembourg,Europe & Central Asia,2,49322,24661
+2024,LVA,Latvia,Europe & Central Asia,17,38459,2262.294117647059
+2024,MCO,Monaco,Europe & Central Asia,1,118,118
+2024,MDA,Moldova,Europe & Central Asia,44,12817,291.29545454545456
+2024,MKD,"Macedonia, FYR",Europe & Central Asia,43,41354,961.7209302325581
+2024,MNE,NA,Europe & Central Asia,12,6717,559.75
+2024,NLD,Netherlands,Europe & Central Asia,144,42690564,296462.25
+2024,NOR,Norway,Europe & Central Asia,34,113078,3325.823529411765
+2024,POL,Poland,Europe & Central Asia,349,657921,1885.160458452722
+2024,PRT,Portugal,Europe & Central Asia,154,166136,1078.8051948051948
+2024,ROU,NA,Europe & Central Asia,252,158327,628.281746031746
+2024,RUS,Russian Federation,Europe & Central Asia,1514,1815543,1199.169749009247
+2024,SRB,NA,Europe & Central Asia,85,163658,1925.3882352941177
+2024,SVK,Slovak Republic,Europe & Central Asia,45,88547,1967.7111111111112
+2024,SVN,Slovenia,Europe & Central Asia,49,52300,1067.3469387755101
+2024,SWE,Sweden,Europe & Central Asia,106,87989,830.0849056603773
+2024,TJK,Tajikistan,Europe & Central Asia,3,682,227.33333333333334
+2024,TUR,Turkey,Europe & Central Asia,1753,688565,392.79235596120935
+2024,UKR,Ukraine,Europe & Central Asia,582,775474,1332.429553264605
+2024,UZB,Uzbekistan,Europe & Central Asia,58,26829,462.5689655172414
+2024,XKX,NA,Europe & Central Asia,7,1737,248.14285714285714
+2024,ARG,Argentina,Latin America & the Caribbean,112,109502,977.6964285714286
+2024,BHS,"Bahamas, The",Latin America & the Caribbean,2,742,371
+2024,BLZ,Belize,Latin America & the Caribbean,2,104,52
+2024,BOL,Bolivia,Latin America & the Caribbean,35,5950,170
+2024,BRA,Brazil,Latin America & the Caribbean,1727,2637805,1527.3914302258252
+2024,BRB,Barbados,Latin America & the Caribbean,1,201,201
+2024,CHL,Chile,Latin America & the Caribbean,91,171102,1880.2417582417581
+2024,COL,Colombia,Latin America & the Caribbean,256,266268,1040.109375
+2024,CRI,Costa Rica,Latin America & the Caribbean,26,35886,1380.2307692307693
+2024,CUB,Cuba,Latin America & the Caribbean,1,93,93
+2024,DOM,Dominican Republic,Latin America & the Caribbean,11,4482,407.45454545454544
+2024,ECU,Ecuador,Latin America & the Caribbean,164,85430,520.9146341463414
+2024,GTM,Guatemala,Latin America & the Caribbean,19,4011,211.10526315789474
+2024,GUY,Guyana,Latin America & the Caribbean,1,106,106
+2024,HND,Honduras,Latin America & the Caribbean,1,47,47
+2024,HTI,Haiti,Latin America & the Caribbean,1,29,29
+2024,JAM,Jamaica,Latin America & the Caribbean,3,3103,1034.3333333333333
+2024,MEX,Mexico,Latin America & the Caribbean,271,241729,891.9889298892989
+2024,NIC,Nicaragua,Latin America & the Caribbean,2,10512,5256
+2024,PAN,Panama,Latin America & the Caribbean,16,5023,313.9375
+2024,PER,Peru,Latin America & the Caribbean,218,115604,530.2935779816514
+2024,PRI,Puerto Rico,Latin America & the Caribbean,11,5377,488.8181818181818
+2024,PRY,Paraguay,Latin America & the Caribbean,35,23634,675.2571428571429
+2024,SLV,El Salvador,Latin America & the Caribbean,5,6434,1286.8
+2024,TTO,Trinidad and Tobago,Latin America & the Caribbean,4,192,48
+2024,URY,Uruguay,Latin America & the Caribbean,69,10568,153.15942028985506
+2024,VEN,Venezuela,Latin America & the Caribbean,32,17701,553.15625
+2024,VGB,British Virgin Islands,Latin America & the Caribbean,2,347256,173628
+2024,AFG,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",14,40017,2858.3571428571427
+2024,ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan",49,313435,6396.632653061224
+2024,BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan",5,3826,765.2
+2024,DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",134,50535,377.1268656716418
+2024,EGY,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",46,395350,8594.565217391304
+2024,IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",215,169961,790.5162790697674
+2024,ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan",20,8482,424.1
+2024,JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",47,35941,764.7021276595744
+2024,KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan",8,14456,1807
+2024,LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",16,5094,318.375
+2024,LBY,Libya,"Middle East, North Africa, Afghanistan & Pakistan",20,10697,534.85
+2024,MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",26,4438,170.69230769230768
+2024,MLT,Malta,"Middle East, North Africa, Afghanistan & Pakistan",3,167,55.666666666666664
+2024,OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan",9,6011,667.8888888888889
+2024,PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",396,179954,454.42929292929296
+2024,PSE,NA,"Middle East, North Africa, Afghanistan & Pakistan",23,12708,552.5217391304348
+2024,QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan",10,12015,1201.5
+2024,SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan",41,21779,531.1951219512196
+2024,SYR,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",2,240,120
+2024,TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",14,1269,90.64285714285714
+2024,YEM,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",30,10482,349.4
+2024,CAN,Canada,North America,269,1150284,4276.148698884758
+2024,USA,United States,North America,2110,56510683,26782.31421800948
+2024,BGD,Bangladesh,South Asia,114,99828,875.6842105263158
+2024,BTN,Bhutan,South Asia,6,500,83.33333333333333
+2024,IND,India,South Asia,1274,2093790,1643.4772370486655
+2024,LKA,Sri Lanka,South Asia,19,28903,1521.2105263157894
+2024,MDV,Maldives,South Asia,3,150,50
+2024,NPL,Nepal,South Asia,42,50194,1195.095238095238
+2024,AGO,Angola,Sub-Saharan Africa,5,491,98.2
+2024,BDI,Burundi,Sub-Saharan Africa,2,318,159
+2024,BEN,Benin,Sub-Saharan Africa,5,117,23.4
+2024,BFA,Burkina Faso,Sub-Saharan Africa,4,289,72.25
+2024,BWA,Botswana,Sub-Saharan Africa,1,24,24
+2024,CAF,Central African Republic,Sub-Saharan Africa,1,5,5
+2024,CMR,Cameroon,Sub-Saharan Africa,5,475,95
+2024,COD,NA,Sub-Saharan Africa,14,714,51
+2024,COG,"Congo, Rep.",Sub-Saharan Africa,1,63,63
+2024,ETH,Ethiopia (excludes Eritrea),Sub-Saharan Africa,14,1104,78.85714285714286
+2024,GHA,Ghana,Sub-Saharan Africa,26,4918,189.15384615384616
+2024,KEN,Kenya,Sub-Saharan Africa,63,32791,520.4920634920635
+2024,MDG,Madagascar,Sub-Saharan Africa,3,243,81
+2024,MLI,Mali,Sub-Saharan Africa,4,478,119.5
+2024,MOZ,Mozambique,Sub-Saharan Africa,1,208,208
+2024,MRT,Mauritania,Sub-Saharan Africa,1,213,213
+2024,MUS,Mauritius,Sub-Saharan Africa,4,4641,1160.25
+2024,MWI,Malawi,Sub-Saharan Africa,1,21,21
+2024,NAM,Namibia,Sub-Saharan Africa,3,261,87
+2024,NGA,Nigeria,Sub-Saharan Africa,142,72753,512.3450704225352
+2024,RWA,Rwanda,Sub-Saharan Africa,6,832,138.66666666666666
+2024,SDN,Sudan,Sub-Saharan Africa,12,3697,308.0833333333333
+2024,SEN,Senegal,Sub-Saharan Africa,7,3854,550.5714285714286
+2024,SLE,Sierra Leone,Sub-Saharan Africa,1,25,25
+2024,SOM,Somalia,Sub-Saharan Africa,6,167,27.833333333333332
+2024,TGO,Togo,Sub-Saharan Africa,1,95,95
+2024,TZA,Tanzania,Sub-Saharan Africa,19,3442,181.1578947368421
+2024,UGA,Uganda,Sub-Saharan Africa,15,2941,196.06666666666666
+2024,ZAF,South Africa,Sub-Saharan Africa,74,222331,3004.472972972973
+2024,ZMB,Zambia,Sub-Saharan Africa,4,1059,264.75
+2024,ZWE,Zimbabwe,Sub-Saharan Africa,2,87,43.5
+2023,AUS,Australia,East Asia & Pacific,205,520064,2536.89756097561
+2023,BRN,Brunei,East Asia & Pacific,4,801,200.25
+2023,CHN,China,East Asia & Pacific,140,423643,3026.0214285714287
+2023,FJI,Fiji,East Asia & Pacific,1,83,83
+2023,HKG,"Hong Kong, China",East Asia & Pacific,63,99382,1577.4920634920634
+2023,IDN,Indonesia,East Asia & Pacific,3345,1704115,509.45142002989536
+2023,JPN,Japan,East Asia & Pacific,674,2725547,4043.8382789317507
+2023,KHM,Cambodia,East Asia & Pacific,3,226,75.33333333333333
+2023,KOR,"Korea, Rep.",East Asia & Pacific,2500,1103496,441.3984
+2023,LAO,Lao PDR,East Asia & Pacific,2,1429,714.5
+2023,MAC,Macao,East Asia & Pacific,3,96,32
+2023,MMR,Myanmar,East Asia & Pacific,1,53,53
+2023,MNG,Mongolia,East Asia & Pacific,7,4062,580.2857142857143
+2023,MYS,Malaysia,East Asia & Pacific,146,102353,701.0479452054794
+2023,NZL,New Zealand,East Asia & Pacific,48,117825,2454.6875
+2023,PHL,Philippines,East Asia & Pacific,97,22635,233.35051546391753
+2023,SGP,Singapore,East Asia & Pacific,51,611124,11982.823529411764
+2023,THA,Thailand,East Asia & Pacific,62,37259,600.9516129032259
+2023,TLS,NA,East Asia & Pacific,2,155,77.5
+2023,TWN,Taiwan,East Asia & Pacific,30,25922,864.0666666666667
+2023,VNM,Vietnam,East Asia & Pacific,117,65166,556.974358974359
+2023,WSM,Samoa,East Asia & Pacific,1,11,11
+2023,ALB,Albania,Europe & Central Asia,14,2115,151.07142857142858
+2023,ARM,Armenia,Europe & Central Asia,44,12005,272.84090909090907
+2023,AUT,Austria,Europe & Central Asia,64,173076,2704.3125
+2023,AZE,Azerbaijan,Europe & Central Asia,31,13545,436.93548387096774
+2023,BEL,Belgium,Europe & Central Asia,51,263337,5163.470588235294
+2023,BGR,Bulgaria,Europe & Central Asia,66,224885,3407.348484848485
+2023,BIH,Bosnia and Herzegovina,Europe & Central Asia,66,21695,328.7121212121212
+2023,BLR,Belarus,Europe & Central Asia,29,18415,635
+2023,CHE,Switzerland,Europe & Central Asia,134,3955165,29516.15671641791
+2023,CYP,Cyprus,Europe & Central Asia,10,30836,3083.6
+2023,CZE,Czech Republic,Europe & Central Asia,112,170768,1524.7142857142858
+2023,DEU,Germany,Europe & Central Asia,234,6249866,26708.82905982906
+2023,DNK,Denmark,Europe & Central Asia,23,86245,3749.782608695652
+2023,ESP,Spain,Europe & Central Asia,463,643895,1390.7019438444925
+2023,EST,Estonia,Europe & Central Asia,16,31811,1988.1875
+2023,FIN,Finland,Europe & Central Asia,127,50946,401.1496062992126
+2023,FRA,France,Europe & Central Asia,111,2876766,25916.81081081081
+2023,FRO,Faeroe Islands,Europe & Central Asia,1,102,102
+2023,GBR,United Kingdom,Europe & Central Asia,598,24997027,41801.048494983275
+2023,GEO,Georgia,Europe & Central Asia,29,6880,237.24137931034483
+2023,GRC,Greece,Europe & Central Asia,41,174451,4254.90243902439
+2023,HRV,Croatia,Europe & Central Asia,188,154505,821.8351063829788
+2023,HUN,Hungary,Europe & Central Asia,292,167179,572.5308219178082
+2023,IRL,Ireland,Europe & Central Asia,26,20867,802.5769230769231
+2023,ISL,Iceland,Europe & Central Asia,8,4728,591
+2023,ITA,Italy,Europe & Central Asia,129,258654,2005.0697674418604
+2023,KAZ,Kazakhstan,Europe & Central Asia,117,49428,422.46153846153845
+2023,KGZ,Kyrgyz Republic,Europe & Central Asia,23,5970,259.5652173913044
+2023,LTU,Lithuania,Europe & Central Asia,41,83253,2030.560975609756
+2023,LUX,Luxembourg,Europe & Central Asia,2,43089,21544.5
+2023,LVA,Latvia,Europe & Central Asia,17,32140,1890.5882352941176
+2023,MCO,Monaco,Europe & Central Asia,1,79,79
+2023,MDA,Moldova,Europe & Central Asia,44,8610,195.6818181818182
+2023,MKD,"Macedonia, FYR",Europe & Central Asia,40,37511,937.775
+2023,MNE,NA,Europe & Central Asia,11,4835,439.54545454545456
+2023,NLD,Netherlands,Europe & Central Asia,133,40261822,302720.46616541356
+2023,NOR,Norway,Europe & Central Asia,32,106480,3327.5
+2023,POL,Poland,Europe & Central Asia,324,584483,1803.95987654321
+2023,PRT,Portugal,Europe & Central Asia,146,147164,1007.972602739726
+2023,ROU,NA,Europe & Central Asia,227,131013,577.1497797356828
+2023,RUS,Russian Federation,Europe & Central Asia,1379,1511161,1095.8382886149384
+2023,SRB,NA,Europe & Central Asia,72,142078,1973.3055555555557
+2023,SVK,Slovak Republic,Europe & Central Asia,38,79232,2085.0526315789475
+2023,SVN,Slovenia,Europe & Central Asia,44,44354,1008.0454545454545
+2023,SWE,Sweden,Europe & Central Asia,94,73036,776.9787234042553
+2023,TJK,Tajikistan,Europe & Central Asia,3,615,205
+2023,TUR,Turkey,Europe & Central Asia,1643,603974,367.60438222763236
+2023,UKR,Ukraine,Europe & Central Asia,553,648487,1172.6708860759493
+2023,UZB,Uzbekistan,Europe & Central Asia,44,17099,388.6136363636364
+2023,XKX,NA,Europe & Central Asia,3,1393,464.3333333333333
+2023,ARG,Argentina,Latin America & the Caribbean,100,89702,897.02
+2023,BHS,"Bahamas, The",Latin America & the Caribbean,2,665,332.5
+2023,BOL,Bolivia,Latin America & the Caribbean,26,4342,167
+2023,BRA,Brazil,Latin America & the Caribbean,1596,2292205,1436.218671679198
+2023,BRB,Barbados,Latin America & the Caribbean,1,201,201
+2023,CHL,Chile,Latin America & the Caribbean,87,151558,1742.0459770114942
+2023,COL,Colombia,Latin America & the Caribbean,243,233995,962.9423868312757
+2023,CRI,Costa Rica,Latin America & the Caribbean,23,33021,1435.695652173913
+2023,CUB,Cuba,Latin America & the Caribbean,1,93,93
+2023,DOM,Dominican Republic,Latin America & the Caribbean,10,3902,390.2
+2023,ECU,Ecuador,Latin America & the Caribbean,135,65310,483.77777777777777
+2023,GTM,Guatemala,Latin America & the Caribbean,19,3371,177.42105263157896
+2023,GUY,Guyana,Latin America & the Caribbean,1,47,47
+2023,HTI,Haiti,Latin America & the Caribbean,1,29,29
+2023,JAM,Jamaica,Latin America & the Caribbean,3,2728,909.3333333333334
+2023,MEX,Mexico,Latin America & the Caribbean,235,201811,858.7702127659575
+2023,NIC,Nicaragua,Latin America & the Caribbean,1,9894,9894
+2023,PAN,Panama,Latin America & the Caribbean,17,3949,232.2941176470588
+2023,PER,Peru,Latin America & the Caribbean,196,103133,526.1887755102041
+2023,PRI,Puerto Rico,Latin America & the Caribbean,11,5065,460.45454545454544
+2023,PRY,Paraguay,Latin America & the Caribbean,28,15032,536.8571428571429
+2023,SLV,El Salvador,Latin America & the Caribbean,3,5218,1739.3333333333333
+2023,TTO,Trinidad and Tobago,Latin America & the Caribbean,4,225,56.25
+2023,URY,Uruguay,Latin America & the Caribbean,62,8668,139.80645161290323
+2023,VEN,Venezuela,Latin America & the Caribbean,27,13214,489.4074074074074
+2023,VGB,British Virgin Islands,Latin America & the Caribbean,2,328163,164081.5
+2023,AFG,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",10,33154,3315.4
+2023,ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan",41,294090,7172.926829268293
+2023,BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan",4,3341,835.25
+2023,DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",124,46329,373.6209677419355
+2023,EGY,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",43,327955,7626.860465116279
+2023,IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",186,134952,725.5483870967741
+2023,ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan",16,2574,160.875
+2023,JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",44,32008,727.4545454545455
+2023,KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan",8,4980,622.5
+2023,LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",13,4042,310.9230769230769
+2023,LBY,Libya,"Middle East, North Africa, Afghanistan & Pakistan",16,6799,424.9375
+2023,MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",21,4065,193.57142857142858
+2023,MLT,Malta,"Middle East, North Africa, Afghanistan & Pakistan",2,58,29
+2023,OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan",7,5581,797.2857142857143
+2023,PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",326,141066,432.7177914110429
+2023,PSE,NA,"Middle East, North Africa, Afghanistan & Pakistan",20,10924,546.2
+2023,QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan",9,10808,1200.888888888889
+2023,SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan",36,19141,531.6944444444445
+2023,SYR,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",2,240,120
+2023,TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",12,1051,87.58333333333333
+2023,YEM,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",28,7605,271.60714285714283
+2023,CAN,Canada,North America,241,1043592,4330.2572614107885
+2023,USA,United States,North America,1928,52937759,27457.34387966805
+2023,BGD,Bangladesh,South Asia,78,75399,966.6538461538462
+2023,BTN,Bhutan,South Asia,5,385,77
+2023,IND,India,South Asia,1105,1791890,1621.6199095022625
+2023,LKA,Sri Lanka,South Asia,17,25448,1496.9411764705883
+2023,MDV,Maldives,South Asia,1,27,27
+2023,NPL,Nepal,South Asia,31,43483,1402.6774193548388
+2023,AGO,Angola,Sub-Saharan Africa,4,319,79.75
+2023,BDI,Burundi,Sub-Saharan Africa,1,295,295
+2023,BEN,Benin,Sub-Saharan Africa,2,63,31.5
+2023,BFA,Burkina Faso,Sub-Saharan Africa,2,185,92.5
+2023,BWA,Botswana,Sub-Saharan Africa,1,24,24
+2023,CAF,Central African Republic,Sub-Saharan Africa,1,5,5
+2023,CMR,Cameroon,Sub-Saharan Africa,4,198,49.5
+2023,COD,NA,Sub-Saharan Africa,10,216,21.6
+2023,COG,"Congo, Rep.",Sub-Saharan Africa,1,47,47
+2023,ETH,Ethiopia (excludes Eritrea),Sub-Saharan Africa,10,710,71
+2023,GHA,Ghana,Sub-Saharan Africa,20,3936,196.8
+2023,KEN,Kenya,Sub-Saharan Africa,46,24306,528.3913043478261
+2023,MDG,Madagascar,Sub-Saharan Africa,2,38,19
+2023,MLI,Mali,Sub-Saharan Africa,2,324,162
+2023,MRT,Mauritania,Sub-Saharan Africa,1,213,213
+2023,MUS,Mauritius,Sub-Saharan Africa,4,3817,954.25
+2023,MWI,Malawi,Sub-Saharan Africa,1,21,21
+2023,NAM,Namibia,Sub-Saharan Africa,3,229,76.33333333333333
+2023,NGA,Nigeria,Sub-Saharan Africa,124,63008,508.1290322580645
+2023,RWA,Rwanda,Sub-Saharan Africa,4,497,124.25
+2023,SDN,Sudan,Sub-Saharan Africa,10,3147,314.7
+2023,SEN,Senegal,Sub-Saharan Africa,4,2711,677.75
+2023,SOM,Somalia,Sub-Saharan Africa,4,66,16.5
+2023,TGO,Togo,Sub-Saharan Africa,1,27,27
+2023,TZA,Tanzania,Sub-Saharan Africa,15,2209,147.26666666666668
+2023,UGA,Uganda,Sub-Saharan Africa,8,1308,163.5
+2023,ZAF,South Africa,Sub-Saharan Africa,64,203218,3175.28125
+2023,ZMB,Zambia,Sub-Saharan Africa,4,975,243.75
+2023,ZWE,Zimbabwe,Sub-Saharan Africa,2,51,25.5
+2022,AUS,Australia,East Asia & Pacific,189,489101,2587.835978835979
+2022,BRN,Brunei,East Asia & Pacific,2,99,49.5
+2022,CHN,China,East Asia & Pacific,123,384860,3128.9430894308944
+2022,FJI,Fiji,East Asia & Pacific,1,32,32
+2022,HKG,"Hong Kong, China",East Asia & Pacific,51,87433,1714.3725490196077
+2022,IDN,Indonesia,East Asia & Pacific,2780,1244179,447.54640287769786
+2022,JPN,Japan,East Asia & Pacific,671,2679821,3993.7719821162445
+2022,KHM,Cambodia,East Asia & Pacific,2,229,114.5
+2022,KOR,"Korea, Rep.",East Asia & Pacific,2446,1028363,420.42641046606707
+2022,LAO,Lao PDR,East Asia & Pacific,2,1338,669
+2022,MAC,Macao,East Asia & Pacific,1,9,9
+2022,MMR,Myanmar,East Asia & Pacific,1,53,53
+2022,MNG,Mongolia,East Asia & Pacific,5,2465,493
+2022,MYS,Malaysia,East Asia & Pacific,128,81592,637.4375
+2022,NZL,New Zealand,East Asia & Pacific,46,109104,2371.8260869565215
+2022,PHL,Philippines,East Asia & Pacific,77,16054,208.4935064935065
+2022,SGP,Singapore,East Asia & Pacific,46,562144,12220.521739130434
+2022,THA,Thailand,East Asia & Pacific,49,17611,359.40816326530614
+2022,TLS,NA,East Asia & Pacific,2,137,68.5
+2022,TWN,Taiwan,East Asia & Pacific,28,21754,776.9285714285714
+2022,VNM,Vietnam,East Asia & Pacific,93,46910,504.40860215053766
+2022,WSM,Samoa,East Asia & Pacific,1,11,11
+2022,ALB,Albania,Europe & Central Asia,7,937,133.85714285714286
+2022,ARM,Armenia,Europe & Central Asia,36,9310,258.6111111111111
+2022,AUT,Austria,Europe & Central Asia,55,147688,2685.2363636363634
+2022,AZE,Azerbaijan,Europe & Central Asia,22,9359,425.40909090909093
+2022,BEL,Belgium,Europe & Central Asia,49,247278,5046.489795918367
+2022,BGR,Bulgaria,Europe & Central Asia,53,197657,3729.377358490566
+2022,BIH,Bosnia and Herzegovina,Europe & Central Asia,53,18073,341
+2022,BLR,Belarus,Europe & Central Asia,28,14832,529.7142857142857
+2022,CHE,Switzerland,Europe & Central Asia,121,3393371,28044.388429752067
+2022,CYP,Cyprus,Europe & Central Asia,10,29044,2904.4
+2022,CZE,Czech Republic,Europe & Central Asia,99,156405,1579.8484848484848
+2022,DEU,Germany,Europe & Central Asia,213,5681576,26674.06572769953
+2022,DNK,Denmark,Europe & Central Asia,22,81470,3703.181818181818
+2022,ESP,Spain,Europe & Central Asia,416,560775,1348.016826923077
+2022,EST,Estonia,Europe & Central Asia,16,28388,1774.25
+2022,FIN,Finland,Europe & Central Asia,118,46769,396.3474576271187
+2022,FRA,France,Europe & Central Asia,105,2594492,24709.44761904762
+2022,FRO,Faeroe Islands,Europe & Central Asia,1,102,102
+2022,GBR,United Kingdom,Europe & Central Asia,557,21898905,39315.8078994614
+2022,GEO,Georgia,Europe & Central Asia,24,4285,178.54166666666666
+2022,GRC,Greece,Europe & Central Asia,38,162355,4272.5
+2022,HRV,Croatia,Europe & Central Asia,181,140030,773.646408839779
+2022,HUN,Hungary,Europe & Central Asia,270,144350,534.6296296296297
+2022,IRL,Ireland,Europe & Central Asia,19,17820,937.8947368421053
+2022,ISL,Iceland,Europe & Central Asia,8,3128,391
+2022,ITA,Italy,Europe & Central Asia,122,231080,1894.0983606557377
+2022,KAZ,Kazakhstan,Europe & Central Asia,102,37284,365.52941176470586
+2022,KGZ,Kyrgyz Republic,Europe & Central Asia,22,4292,195.0909090909091
+2022,LTU,Lithuania,Europe & Central Asia,39,76765,1968.3333333333333
+2022,LUX,Luxembourg,Europe & Central Asia,1,35580,35580
+2022,LVA,Latvia,Europe & Central Asia,16,26075,1629.6875
+2022,MCO,Monaco,Europe & Central Asia,1,14,14
+2022,MDA,Moldova,Europe & Central Asia,41,5280,128.78048780487805
+2022,MKD,"Macedonia, FYR",Europe & Central Asia,36,33427,928.5277777777778
+2022,MNE,NA,Europe & Central Asia,10,4209,420.9
+2022,NLD,Netherlands,Europe & Central Asia,118,38089248,322790.23728813557
+2022,NOR,Norway,Europe & Central Asia,27,98512,3648.5925925925926
+2022,POL,Poland,Europe & Central Asia,294,495681,1685.9897959183672
+2022,PRT,Portugal,Europe & Central Asia,136,127017,933.9485294117648
+2022,ROU,NA,Europe & Central Asia,206,107224,520.504854368932
+2022,RUS,Russian Federation,Europe & Central Asia,1350,1292797,957.6274074074074
+2022,SRB,NA,Europe & Central Asia,66,133047,2015.8636363636363
+2022,SVK,Slovak Republic,Europe & Central Asia,37,69354,1874.4324324324325
+2022,SVN,Slovenia,Europe & Central Asia,43,38068,885.3023255813954
+2022,SWE,Sweden,Europe & Central Asia,77,62642,813.5324675324675
+2022,TJK,Tajikistan,Europe & Central Asia,3,473,157.66666666666666
+2022,TUR,Turkey,Europe & Central Asia,1546,515305,333.3150064683053
+2022,UKR,Ukraine,Europe & Central Asia,527,519190,985.1802656546489
+2022,UZB,Uzbekistan,Europe & Central Asia,35,9891,282.6
+2022,XKX,NA,Europe & Central Asia,2,1337,668.5
+2022,ARG,Argentina,Latin America & the Caribbean,85,72856,857.1294117647059
+2022,BHS,"Bahamas, The",Latin America & the Caribbean,2,557,278.5
+2022,BOL,Bolivia,Latin America & the Caribbean,19,2309,121.52631578947368
+2022,BRA,Brazil,Latin America & the Caribbean,1479,1995963,1349.5354969574037
+2022,BRB,Barbados,Latin America & the Caribbean,1,201,201
+2022,CHL,Chile,Latin America & the Caribbean,79,132003,1670.9240506329113
+2022,COL,Colombia,Latin America & the Caribbean,227,197094,868.2555066079295
+2022,CRI,Costa Rica,Latin America & the Caribbean,19,29959,1576.7894736842106
+2022,CUB,Cuba,Latin America & the Caribbean,1,93,93
+2022,DOM,Dominican Republic,Latin America & the Caribbean,8,3414,426.75
+2022,ECU,Ecuador,Latin America & the Caribbean,111,53309,480.26126126126127
+2022,GTM,Guatemala,Latin America & the Caribbean,18,2461,136.72222222222223
+2022,GUY,Guyana,Latin America & the Caribbean,1,47,47
+2022,HTI,Haiti,Latin America & the Caribbean,1,28,28
+2022,JAM,Jamaica,Latin America & the Caribbean,3,2139,713
+2022,MEX,Mexico,Latin America & the Caribbean,195,172152,882.8307692307692
+2022,NIC,Nicaragua,Latin America & the Caribbean,1,9234,9234
+2022,PAN,Panama,Latin America & the Caribbean,14,2996,214
+2022,PER,Peru,Latin America & the Caribbean,170,81421,478.9470588235294
+2022,PRI,Puerto Rico,Latin America & the Caribbean,10,4876,487.6
+2022,PRY,Paraguay,Latin America & the Caribbean,24,8844,368.5
+2022,SLV,El Salvador,Latin America & the Caribbean,2,4305,2152.5
+2022,TTO,Trinidad and Tobago,Latin America & the Caribbean,3,217,72.33333333333333
+2022,URY,Uruguay,Latin America & the Caribbean,59,7262,123.08474576271186
+2022,VEN,Venezuela,Latin America & the Caribbean,20,9141,457.05
+2022,VGB,British Virgin Islands,Latin America & the Caribbean,2,311239,155619.5
+2022,AFG,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",6,15178,2529.6666666666665
+2022,ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan",37,277254,7493.351351351352
+2022,BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan",3,3047,1015.6666666666666
+2022,DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",120,38753,322.94166666666666
+2022,EGY,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",32,270989,8468.40625
+2022,IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",170,97993,576.4294117647058
+2022,ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan",16,2316,144.75
+2022,JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",39,28100,720.5128205128206
+2022,KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan",9,5401,600.1111111111111
+2022,LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",10,3123,312.3
+2022,LBY,Libya,"Middle East, North Africa, Afghanistan & Pakistan",15,3725,248.33333333333334
+2022,MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",19,3845,202.3684210526316
+2022,MLT,Malta,"Middle East, North Africa, Afghanistan & Pakistan",2,25,12.5
+2022,OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan",7,4863,694.7142857142857
+2022,PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",278,112833,405.87410071942446
+2022,PSE,NA,"Middle East, North Africa, Afghanistan & Pakistan",15,7427,495.1333333333333
+2022,QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan",8,10073,1259.125
+2022,SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan",32,16128,504
+2022,SYR,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",2,240,120
+2022,TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",11,807,73.36363636363636
+2022,YEM,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",18,3789,210.5
+2022,CAN,Canada,North America,230,952827,4142.726086956522
+2022,USA,United States,North America,1781,49601995,27850.642897248737
+2022,BGD,Bangladesh,South Asia,56,57154,1020.6071428571429
+2022,BTN,Bhutan,South Asia,4,306,76.5
+2022,IND,India,South Asia,979,1538368,1571.3667007150152
+2022,LKA,Sri Lanka,South Asia,14,22678,1619.857142857143
+2022,MDV,Maldives,South Asia,1,27,27
+2022,NPL,Nepal,South Asia,17,36984,2175.529411764706
+2022,AGO,Angola,Sub-Saharan Africa,4,208,52
+2022,BDI,Burundi,Sub-Saharan Africa,1,241,241
+2022,BEN,Benin,Sub-Saharan Africa,2,46,23
+2022,BFA,Burkina Faso,Sub-Saharan Africa,2,66,33
+2022,BWA,Botswana,Sub-Saharan Africa,1,24,24
+2022,CAF,Central African Republic,Sub-Saharan Africa,1,5,5
+2022,CMR,Cameroon,Sub-Saharan Africa,3,117,39
+2022,COD,NA,Sub-Saharan Africa,1,6,6
+2022,COG,"Congo, Rep.",Sub-Saharan Africa,1,28,28
+2022,ETH,Ethiopia (excludes Eritrea),Sub-Saharan Africa,4,376,94
+2022,GHA,Ghana,Sub-Saharan Africa,16,3113,194.5625
+2022,KEN,Kenya,Sub-Saharan Africa,34,17527,515.5
+2022,MDG,Madagascar,Sub-Saharan Africa,1,20,20
+2022,MLI,Mali,Sub-Saharan Africa,2,287,143.5
+2022,MRT,Mauritania,Sub-Saharan Africa,1,213,213
+2022,MUS,Mauritius,Sub-Saharan Africa,3,3154,1051.3333333333333
+2022,MWI,Malawi,Sub-Saharan Africa,1,21,21
+2022,NAM,Namibia,Sub-Saharan Africa,2,81,40.5
+2022,NGA,Nigeria,Sub-Saharan Africa,110,53446,485.8727272727273
+2022,RWA,Rwanda,Sub-Saharan Africa,4,116,29
+2022,SDN,Sudan,Sub-Saharan Africa,8,2206,275.75
+2022,SEN,Senegal,Sub-Saharan Africa,3,1225,408.3333333333333
+2022,SOM,Somalia,Sub-Saharan Africa,2,7,3.5
+2022,TZA,Tanzania,Sub-Saharan Africa,6,1210,201.66666666666666
+2022,UGA,Uganda,Sub-Saharan Africa,4,410,102.5
+2022,ZAF,South Africa,Sub-Saharan Africa,60,188871,3147.85
+2022,ZMB,Zambia,Sub-Saharan Africa,4,465,116.25
+2022,ZWE,Zimbabwe,Sub-Saharan Africa,1,32,32
+2021,AUS,Australia,East Asia & Pacific,164,462325,2819.0548780487807
+2021,BRN,Brunei,East Asia & Pacific,2,95,47.5
+2021,CHN,China,East Asia & Pacific,103,345447,3353.854368932039
+2021,FJI,Fiji,East Asia & Pacific,1,32,32
+2021,HKG,"Hong Kong, China",East Asia & Pacific,46,78585,1708.3695652173913
+2021,IDN,Indonesia,East Asia & Pacific,2236,864264,386.52236135957065
+2021,JPN,Japan,East Asia & Pacific,661,2613193,3953.393343419062
+2021,KHM,Cambodia,East Asia & Pacific,2,229,114.5
+2021,KOR,"Korea, Rep.",East Asia & Pacific,2361,956595,405.1651842439644
+2021,LAO,Lao PDR,East Asia & Pacific,1,739,739
+2021,MAC,Macao,East Asia & Pacific,1,9,9
+2021,MMR,Myanmar,East Asia & Pacific,1,53,53
+2021,MNG,Mongolia,East Asia & Pacific,5,1857,371.4
+2021,MYS,Malaysia,East Asia & Pacific,105,65228,621.2190476190476
+2021,NZL,New Zealand,East Asia & Pacific,45,99792,2217.6
+2021,PHL,Philippines,East Asia & Pacific,55,10505,191
+2021,SGP,Singapore,East Asia & Pacific,44,524805,11927.386363636364
+2021,THA,Thailand,East Asia & Pacific,38,13518,355.7368421052632
+2021,TLS,NA,East Asia & Pacific,2,41,20.5
+2021,TWN,Taiwan,East Asia & Pacific,26,17631,678.1153846153846
+2021,VNM,Vietnam,East Asia & Pacific,69,34552,500.7536231884058
+2021,WSM,Samoa,East Asia & Pacific,1,11,11
+2021,ALB,Albania,Europe & Central Asia,6,795,132.5
+2021,ARM,Armenia,Europe & Central Asia,27,7056,261.3333333333333
+2021,AUT,Austria,Europe & Central Asia,53,132791,2505.490566037736
+2021,AZE,Azerbaijan,Europe & Central Asia,17,7751,455.94117647058823
+2021,BEL,Belgium,Europe & Central Asia,41,222788,5433.8536585365855
+2021,BGR,Bulgaria,Europe & Central Asia,45,173277,3850.6
+2021,BIH,Bosnia and Herzegovina,Europe & Central Asia,47,14663,311.97872340425533
+2021,BLR,Belarus,Europe & Central Asia,26,8876,341.38461538461536
+2021,CHE,Switzerland,Europe & Central Asia,97,2759560,28449.072164948455
+2021,CYP,Cyprus,Europe & Central Asia,8,21154,2644.25
+2021,CZE,Czech Republic,Europe & Central Asia,94,143871,1530.5425531914893
+2021,DEU,Germany,Europe & Central Asia,185,4959723,26809.313513513513
+2021,DNK,Denmark,Europe & Central Asia,18,72265,4014.722222222222
+2021,ESP,Spain,Europe & Central Asia,369,459809,1246.0948509485095
+2021,EST,Estonia,Europe & Central Asia,16,20199,1262.4375
+2021,FIN,Finland,Europe & Central Asia,101,41909,414.94059405940595
+2021,FRA,France,Europe & Central Asia,86,2380046,27674.95348837209
+2021,FRO,Faeroe Islands,Europe & Central Asia,1,96,96
+2021,GBR,United Kingdom,Europe & Central Asia,500,20646851,41293.702
+2021,GEO,Georgia,Europe & Central Asia,17,2700,158.8235294117647
+2021,GRC,Greece,Europe & Central Asia,32,152553,4767.28125
+2021,HRV,Croatia,Europe & Central Asia,173,126014,728.4046242774566
+2021,HUN,Hungary,Europe & Central Asia,232,123367,531.7543103448276
+2021,IRL,Ireland,Europe & Central Asia,17,7824,460.2352941176471
+2021,ISL,Iceland,Europe & Central Asia,8,2567,320.875
+2021,ITA,Italy,Europe & Central Asia,109,202944,1861.8715596330276
+2021,KAZ,Kazakhstan,Europe & Central Asia,81,27566,340.320987654321
+2021,KGZ,Kyrgyz Republic,Europe & Central Asia,15,2295,153
+2021,LTU,Lithuania,Europe & Central Asia,34,68799,2023.5
+2021,LUX,Luxembourg,Europe & Central Asia,1,58,58
+2021,LVA,Latvia,Europe & Central Asia,13,21241,1633.923076923077
+2021,MDA,Moldova,Europe & Central Asia,31,3253,104.93548387096774
+2021,MKD,"Macedonia, FYR",Europe & Central Asia,31,28202,909.741935483871
+2021,MNE,NA,Europe & Central Asia,8,3460,432.5
+2021,NLD,Netherlands,Europe & Central Asia,106,36209690,341600.8490566038
+2021,NOR,Norway,Europe & Central Asia,24,79382,3307.5833333333335
+2021,POL,Poland,Europe & Central Asia,269,440392,1637.1449814126395
+2021,PRT,Portugal,Europe & Central Asia,120,111202,926.6833333333333
+2021,ROU,NA,Europe & Central Asia,186,87649,471.23118279569894
+2021,RUS,Russian Federation,Europe & Central Asia,1219,1058239,868.1205906480722
+2021,SRB,NA,Europe & Central Asia,56,118966,2124.3928571428573
+2021,SVK,Slovak Republic,Europe & Central Asia,33,57838,1752.6666666666667
+2021,SVN,Slovenia,Europe & Central Asia,40,32567,814.175
+2021,SWE,Sweden,Europe & Central Asia,64,45501,710.953125
+2021,TJK,Tajikistan,Europe & Central Asia,2,416,208
+2021,TUR,Turkey,Europe & Central Asia,1431,425559,297.3857442348008
+2021,UKR,Ukraine,Europe & Central Asia,517,423762,819.6557059961315
+2021,UZB,Uzbekistan,Europe & Central Asia,27,6766,250.59259259259258
+2021,XKX,NA,Europe & Central Asia,2,1310,655
+2021,ARG,Argentina,Latin America & the Caribbean,70,58987,842.6714285714286
+2021,BHS,"Bahamas, The",Latin America & the Caribbean,1,272,272
+2021,BOL,Bolivia,Latin America & the Caribbean,12,1568,130.66666666666666
+2021,BRA,Brazil,Latin America & the Caribbean,1371,1732444,1263.6353026987601
+2021,BRB,Barbados,Latin America & the Caribbean,1,201,201
+2021,CHL,Chile,Latin America & the Caribbean,63,118411,1879.5396825396826
+2021,COL,Colombia,Latin America & the Caribbean,204,165253,810.0637254901961
+2021,CRI,Costa Rica,Latin America & the Caribbean,16,26594,1662.125
+2021,CUB,Cuba,Latin America & the Caribbean,1,93,93
+2021,DOM,Dominican Republic,Latin America & the Caribbean,7,3003,429
+2021,ECU,Ecuador,Latin America & the Caribbean,94,34803,370.24468085106383
+2021,GTM,Guatemala,Latin America & the Caribbean,15,1428,95.2
+2021,GUY,Guyana,Latin America & the Caribbean,1,29,29
+2021,HTI,Haiti,Latin America & the Caribbean,1,15,15
+2021,JAM,Jamaica,Latin America & the Caribbean,3,1869,623
+2021,MEX,Mexico,Latin America & the Caribbean,177,145419,821.5762711864406
+2021,NIC,Nicaragua,Latin America & the Caribbean,1,7932,7932
+2021,PAN,Panama,Latin America & the Caribbean,10,2307,230.7
+2021,PER,Peru,Latin America & the Caribbean,141,66700,473.0496453900709
+2021,PRI,Puerto Rico,Latin America & the Caribbean,8,4292,536.5
+2021,PRY,Paraguay,Latin America & the Caribbean,18,5421,301.1666666666667
+2021,SLV,El Salvador,Latin America & the Caribbean,1,3384,3384
+2021,TTO,Trinidad and Tobago,Latin America & the Caribbean,3,219,73
+2021,URY,Uruguay,Latin America & the Caribbean,53,5736,108.22641509433963
+2021,VEN,Venezuela,Latin America & the Caribbean,18,5629,312.72222222222223
+2021,VGB,British Virgin Islands,Latin America & the Caribbean,2,299159,149579.5
+2021,AFG,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",4,14773,3693.25
+2021,ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan",33,258077,7820.515151515152
+2021,BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan",3,2737,912.3333333333334
+2021,DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",115,33795,293.8695652173913
+2021,EGY,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",27,198985,7369.814814814815
+2021,IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",142,71176,501.23943661971833
+2021,ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan",14,2057,146.92857142857142
+2021,JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",34,23187,681.9705882352941
+2021,KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan",9,4112,456.8888888888889
+2021,LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",7,2309,329.85714285714283
+2021,LBY,Libya,"Middle East, North Africa, Afghanistan & Pakistan",13,2558,196.76923076923077
+2021,MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",17,3419,201.11764705882354
+2021,MLT,Malta,"Middle East, North Africa, Afghanistan & Pakistan",1,9,9
+2021,OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan",5,4131,826.2
+2021,PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",230,89475,389.0217391304348
+2021,PSE,NA,"Middle East, North Africa, Afghanistan & Pakistan",14,5221,372.92857142857144
+2021,QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan",8,9271,1158.875
+2021,SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan",24,14246,593.5833333333334
+2021,SYR,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",2,240,120
+2021,TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",9,619,68.77777777777777
+2021,YEM,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",13,1983,152.53846153846155
+2021,CAN,Canada,North America,214,888058,4149.803738317757
+2021,USA,United States,North America,1624,46604046,28697.07266009852
+2021,BGD,Bangladesh,South Asia,42,48634,1157.952380952381
+2021,BTN,Bhutan,South Asia,3,192,64
+2021,IND,India,South Asia,827,1342431,1623.2539298669892
+2021,LKA,Sri Lanka,South Asia,11,19220,1747.2727272727273
+2021,NPL,Nepal,South Asia,17,31514,1853.764705882353
+2021,AGO,Angola,Sub-Saharan Africa,4,167,41.75
+2021,BDI,Burundi,Sub-Saharan Africa,1,197,197
+2021,BEN,Benin,Sub-Saharan Africa,1,3,3
+2021,BFA,Burkina Faso,Sub-Saharan Africa,1,59,59
+2021,BWA,Botswana,Sub-Saharan Africa,1,24,24
+2021,CAF,Central African Republic,Sub-Saharan Africa,1,5,5
+2021,CMR,Cameroon,Sub-Saharan Africa,2,84,42
+2021,ETH,Ethiopia (excludes Eritrea),Sub-Saharan Africa,4,351,87.75
+2021,GHA,Ghana,Sub-Saharan Africa,14,2546,181.85714285714286
+2021,KEN,Kenya,Sub-Saharan Africa,29,14095,486.0344827586207
+2021,MDG,Madagascar,Sub-Saharan Africa,1,20,20
+2021,MLI,Mali,Sub-Saharan Africa,2,258,129
+2021,MRT,Mauritania,Sub-Saharan Africa,1,213,213
+2021,MUS,Mauritius,Sub-Saharan Africa,3,2639,879.6666666666666
+2021,MWI,Malawi,Sub-Saharan Africa,1,21,21
+2021,NAM,Namibia,Sub-Saharan Africa,1,22,22
+2021,NGA,Nigeria,Sub-Saharan Africa,91,47911,526.4945054945055
+2021,RWA,Rwanda,Sub-Saharan Africa,3,77,25.666666666666668
+2021,SDN,Sudan,Sub-Saharan Africa,7,911,130.14285714285714
+2021,SEN,Senegal,Sub-Saharan Africa,2,385,192.5
+2021,TZA,Tanzania,Sub-Saharan Africa,3,557,185.66666666666666
+2021,UGA,Uganda,Sub-Saharan Africa,4,163,40.75
+2021,ZAF,South Africa,Sub-Saharan Africa,50,173087,3461.74
+2021,ZMB,Zambia,Sub-Saharan Africa,3,190,63.333333333333336
+2021,ZWE,Zimbabwe,Sub-Saharan Africa,1,27,27
+2020,AUS,Australia,East Asia & Pacific,137,378222,2760.7445255474454
+2020,BRN,Brunei,East Asia & Pacific,2,67,33.5
+2020,CHN,China,East Asia & Pacific,93,302692,3254.7526881720432
+2020,FJI,Fiji,East Asia & Pacific,1,26,26
+2020,HKG,"Hong Kong, China",East Asia & Pacific,41,72237,1761.878048780488
+2020,IDN,Indonesia,East Asia & Pacific,1702,627795,368.8572267920094
+2020,JPN,Japan,East Asia & Pacific,657,2548339,3878.750380517504
+2020,KHM,Cambodia,East Asia & Pacific,2,212,106
+2020,KOR,"Korea, Rep.",East Asia & Pacific,2234,878203,393.1078782452999
+2020,LAO,Lao PDR,East Asia & Pacific,1,678,678
+2020,MAC,Macao,East Asia & Pacific,1,9,9
+2020,MMR,Myanmar,East Asia & Pacific,1,53,53
+2020,MNG,Mongolia,East Asia & Pacific,3,1630,543.3333333333334
+2020,MYS,Malaysia,East Asia & Pacific,86,48651,565.7093023255813
+2020,NZL,New Zealand,East Asia & Pacific,42,74495,1773.6904761904761
+2020,PHL,Philippines,East Asia & Pacific,38,7910,208.1578947368421
+2020,SGP,Singapore,East Asia & Pacific,41,485295,11836.463414634147
+2020,THA,Thailand,East Asia & Pacific,31,10490,338.38709677419354
+2020,TWN,Taiwan,East Asia & Pacific,20,16311,815.55
+2020,VNM,Vietnam,East Asia & Pacific,40,22272,556.8
+2020,WSM,Samoa,East Asia & Pacific,1,11,11
+2020,ALB,Albania,Europe & Central Asia,5,526,105.2
+2020,ARM,Armenia,Europe & Central Asia,6,13047,2174.5
+2020,AUT,Austria,Europe & Central Asia,46,160096,3480.3478260869565
+2020,AZE,Azerbaijan,Europe & Central Asia,14,4829,344.92857142857144
+2020,BEL,Belgium,Europe & Central Asia,36,208594,5794.277777777777
+2020,BGR,Bulgaria,Europe & Central Asia,40,148151,3703.775
+2020,BIH,Bosnia and Herzegovina,Europe & Central Asia,28,11264,402.2857142857143
+2020,BLR,Belarus,Europe & Central Asia,16,4552,284.5
+2020,CHE,Switzerland,Europe & Central Asia,85,2236160,26307.764705882353
+2020,CYP,Cyprus,Europe & Central Asia,8,16306,2038.25
+2020,CZE,Czech Republic,Europe & Central Asia,87,130217,1496.7471264367816
+2020,DEU,Germany,Europe & Central Asia,150,4047662,26984.413333333334
+2020,DNK,Denmark,Europe & Central Asia,14,64869,4633.5
+2020,ESP,Spain,Europe & Central Asia,318,388796,1222.6289308176101
+2020,EST,Estonia,Europe & Central Asia,13,15081,1160.076923076923
+2020,FIN,Finland,Europe & Central Asia,86,36288,421.95348837209303
+2020,FRA,France,Europe & Central Asia,69,2103818,30490.115942028984
+2020,FRO,Faeroe Islands,Europe & Central Asia,1,96,96
+2020,GBR,United Kingdom,Europe & Central Asia,444,19125391,43075.204954954956
+2020,GEO,Georgia,Europe & Central Asia,12,1820,151.66666666666666
+2020,GRC,Greece,Europe & Central Asia,28,120462,4302.214285714285
+2020,HRV,Croatia,Europe & Central Asia,156,112021,718.0833333333334
+2020,HUN,Hungary,Europe & Central Asia,202,103840,514.059405940594
+2020,IRL,Ireland,Europe & Central Asia,16,5008,313
+2020,ISL,Iceland,Europe & Central Asia,8,2179,272.375
+2020,ITA,Italy,Europe & Central Asia,88,127171,1445.125
+2020,KAZ,Kazakhstan,Europe & Central Asia,34,16650,489.70588235294116
+2020,KGZ,Kyrgyz Republic,Europe & Central Asia,12,1256,104.66666666666667
+2020,LTU,Lithuania,Europe & Central Asia,29,59265,2043.6206896551723
+2020,LUX,Luxembourg,Europe & Central Asia,1,32,32
+2020,LVA,Latvia,Europe & Central Asia,11,15294,1390.3636363636363
+2020,MDA,Moldova,Europe & Central Asia,5,570,114
+2020,MKD,"Macedonia, FYR",Europe & Central Asia,29,14099,486.17241379310343
+2020,MNE,NA,Europe & Central Asia,8,2543,317.875
+2020,NLD,Netherlands,Europe & Central Asia,80,34431490,430393.625
+2020,NOR,Norway,Europe & Central Asia,20,43048,2152.4
+2020,POL,Poland,Europe & Central Asia,231,371811,1609.5714285714287
+2020,PRT,Portugal,Europe & Central Asia,109,96976,889.6880733944954
+2020,ROU,NA,Europe & Central Asia,162,65484,404.22222222222223
+2020,RUS,Russian Federation,Europe & Central Asia,967,795829,822.9875904860393
+2020,SRB,NA,Europe & Central Asia,51,103459,2028.6078431372548
+2020,SVK,Slovak Republic,Europe & Central Asia,27,48787,1806.9259259259259
+2020,SVN,Slovenia,Europe & Central Asia,44,27747,630.6136363636364
+2020,SWE,Sweden,Europe & Central Asia,52,31602,607.7307692307693
+2020,TJK,Tajikistan,Europe & Central Asia,1,211,211
+2020,TUR,Turkey,Europe & Central Asia,1225,360139,293.99102040816325
+2020,UKR,Ukraine,Europe & Central Asia,478,323137,676.0188284518829
+2020,UZB,Uzbekistan,Europe & Central Asia,17,3539,208.1764705882353
+2020,XKX,NA,Europe & Central Asia,1,1297,1297
+2020,ARG,Argentina,Latin America & the Caribbean,56,45852,818.7857142857143
+2020,BHS,"Bahamas, The",Latin America & the Caribbean,1,254,254
+2020,BOL,Bolivia,Latin America & the Caribbean,8,1018,127.25
+2020,BRA,Brazil,Latin America & the Caribbean,1195,1409714,1179.6769874476988
+2020,BRB,Barbados,Latin America & the Caribbean,1,186,186
+2020,CHL,Chile,Latin America & the Caribbean,53,108671,2050.396226415094
+2020,COL,Colombia,Latin America & the Caribbean,179,137039,765.5810055865921
+2020,CRI,Costa Rica,Latin America & the Caribbean,13,23035,1771.923076923077
+2020,CUB,Cuba,Latin America & the Caribbean,1,93,93
+2020,DOM,Dominican Republic,Latin America & the Caribbean,6,2486,414.3333333333333
+2020,ECU,Ecuador,Latin America & the Caribbean,78,26983,345.93589743589746
+2020,GTM,Guatemala,Latin America & the Caribbean,13,579,44.53846153846154
+2020,JAM,Jamaica,Latin America & the Caribbean,3,1709,569.6666666666666
+2020,MEX,Mexico,Latin America & the Caribbean,159,122057,767.6540880503145
+2020,NIC,Nicaragua,Latin America & the Caribbean,1,7967,7967
+2020,PAN,Panama,Latin America & the Caribbean,7,1301,185.85714285714286
+2020,PER,Peru,Latin America & the Caribbean,118,51789,438.8898305084746
+2020,PRI,Puerto Rico,Latin America & the Caribbean,6,3954,659
+2020,PRY,Paraguay,Latin America & the Caribbean,13,3276,252
+2020,TTO,Trinidad and Tobago,Latin America & the Caribbean,3,172,57.333333333333336
+2020,URY,Uruguay,Latin America & the Caribbean,44,3884,88.27272727272727
+2020,VEN,Venezuela,Latin America & the Caribbean,11,2240,203.63636363636363
+2020,VGB,British Virgin Islands,Latin America & the Caribbean,2,283067,141533.5
+2020,AFG,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",2,13933,6966.5
+2020,ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan",29,239945,8273.965517241379
+2020,BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan",2,2361,1180.5
+2020,DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",72,19476,270.5
+2020,EGY,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",24,122483,5103.458333333333
+2020,IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",118,53636,454.54237288135596
+2020,ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan",8,1491,186.375
+2020,JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",30,20172,672.4
+2020,KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan",7,2266,323.7142857142857
+2020,LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",7,2070,295.7142857142857
+2020,LBY,Libya,"Middle East, North Africa, Afghanistan & Pakistan",7,1984,283.42857142857144
+2020,MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",15,2844,189.6
+2020,OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan",3,1977,659
+2020,PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",171,62979,368.29824561403507
+2020,PSE,NA,"Middle East, North Africa, Afghanistan & Pakistan",10,1559,155.9
+2020,QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan",7,7469,1067
+2020,SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan",18,12179,676.6111111111111
+2020,SYR,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",2,213,106.5
+2020,TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",8,609,76.125
+2020,YEM,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",9,1275,141.66666666666666
+2020,CAN,Canada,North America,197,803138,4076.8426395939086
+2020,USA,United States,North America,1472,43199155,29347.25203804348
+2020,BGD,Bangladesh,South Asia,31,40664,1311.741935483871
+2020,BTN,Bhutan,South Asia,2,164,82
+2020,IND,India,South Asia,701,1163720,1660.0855920114122
+2020,LKA,Sri Lanka,South Asia,10,16735,1673.5
+2020,NPL,Nepal,South Asia,8,25564,3195.5
+2020,AGO,Angola,Sub-Saharan Africa,2,74,37
+2020,BDI,Burundi,Sub-Saharan Africa,1,156,156
+2020,BEN,Benin,Sub-Saharan Africa,1,3,3
+2020,BFA,Burkina Faso,Sub-Saharan Africa,1,17,17
+2020,BWA,Botswana,Sub-Saharan Africa,1,24,24
+2020,CAF,Central African Republic,Sub-Saharan Africa,1,5,5
+2020,CMR,Cameroon,Sub-Saharan Africa,2,75,37.5
+2020,ETH,Ethiopia (excludes Eritrea),Sub-Saharan Africa,4,274,68.5
+2020,GHA,Ghana,Sub-Saharan Africa,11,1425,129.54545454545453
+2020,KEN,Kenya,Sub-Saharan Africa,19,11462,603.2631578947369
+2020,MDG,Madagascar,Sub-Saharan Africa,1,19,19
+2020,MRT,Mauritania,Sub-Saharan Africa,1,161,161
+2020,MUS,Mauritius,Sub-Saharan Africa,3,2191,730.3333333333334
+2020,MWI,Malawi,Sub-Saharan Africa,1,21,21
+2020,NAM,Namibia,Sub-Saharan Africa,1,22,22
+2020,NGA,Nigeria,Sub-Saharan Africa,64,40991,640.484375
+2020,RWA,Rwanda,Sub-Saharan Africa,2,43,21.5
+2020,SDN,Sudan,Sub-Saharan Africa,3,187,62.333333333333336
+2020,SEN,Senegal,Sub-Saharan Africa,1,319,319
+2020,TZA,Tanzania,Sub-Saharan Africa,2,82,41
+2020,UGA,Uganda,Sub-Saharan Africa,3,48,16
+2020,ZAF,South Africa,Sub-Saharan Africa,48,152246,3171.7916666666665
+2020,ZMB,Zambia,Sub-Saharan Africa,2,81,40.5
+2020,ZWE,Zimbabwe,Sub-Saharan Africa,1,18,18
+2019,AUS,Australia,East Asia & Pacific,117,351529,3004.5213675213677
+2019,BRN,Brunei,East Asia & Pacific,1,1,1
+2019,CHN,China,East Asia & Pacific,79,237705,3008.9240506329115
+2019,FJI,Fiji,East Asia & Pacific,1,14,14
+2019,HKG,"Hong Kong, China",East Asia & Pacific,32,61139,1910.59375
+2019,IDN,Indonesia,East Asia & Pacific,1225,404986,330.6008163265306
+2019,JPN,Japan,East Asia & Pacific,637,2551586,4005.629513343799
+2019,KHM,Cambodia,East Asia & Pacific,2,197,98.5
+2019,KOR,"Korea, Rep.",East Asia & Pacific,2011,786361,391.02983590253604
+2019,LAO,Lao PDR,East Asia & Pacific,1,592,592
+2019,MAC,Macao,East Asia & Pacific,1,9,9
+2019,MMR,Myanmar,East Asia & Pacific,1,37,37
+2019,MNG,Mongolia,East Asia & Pacific,3,1397,465.6666666666667
+2019,MYS,Malaysia,East Asia & Pacific,63,33430,530.6349206349206
+2019,NZL,New Zealand,East Asia & Pacific,38,96975,2551.9736842105262
+2019,PHL,Philippines,East Asia & Pacific,31,6423,207.19354838709677
+2019,SGP,Singapore,East Asia & Pacific,35,451610,12903.142857142857
+2019,THA,Thailand,East Asia & Pacific,27,8194,303.48148148148147
+2019,TWN,Taiwan,East Asia & Pacific,16,13030,814.375
+2019,VNM,Vietnam,East Asia & Pacific,20,15065,753.25
+2019,ALB,Albania,Europe & Central Asia,3,362,120.66666666666667
+2019,ARM,Armenia,Europe & Central Asia,4,9648,2412
+2019,AUT,Austria,Europe & Central Asia,41,148719,3627.2926829268295
+2019,AZE,Azerbaijan,Europe & Central Asia,13,3729,286.84615384615387
+2019,BEL,Belgium,Europe & Central Asia,28,198483,7088.678571428572
+2019,BGR,Bulgaria,Europe & Central Asia,28,124808,4457.428571428572
+2019,BIH,Bosnia and Herzegovina,Europe & Central Asia,19,9934,522.8421052631579
+2019,BLR,Belarus,Europe & Central Asia,9,2967,329.6666666666667
+2019,CHE,Switzerland,Europe & Central Asia,54,1877754,34773.22222222222
+2019,CYP,Cyprus,Europe & Central Asia,7,11911,1701.5714285714287
+2019,CZE,Czech Republic,Europe & Central Asia,69,100504,1456.5797101449275
+2019,DEU,Germany,Europe & Central Asia,117,3582375,30618.589743589742
+2019,DNK,Denmark,Europe & Central Asia,11,53369,4851.727272727273
+2019,ESP,Spain,Europe & Central Asia,261,323607,1239.8735632183907
+2019,EST,Estonia,Europe & Central Asia,12,8926,743.8333333333334
+2019,FIN,Finland,Europe & Central Asia,72,29967,416.2083333333333
+2019,FRA,France,Europe & Central Asia,54,1836765,34014.166666666664
+2019,FRO,Faeroe Islands,Europe & Central Asia,1,84,84
+2019,GBR,United Kingdom,Europe & Central Asia,376,17436519,46373.72074468085
+2019,GEO,Georgia,Europe & Central Asia,8,1535,191.875
+2019,GRC,Greece,Europe & Central Asia,24,108818,4534.083333333333
+2019,HRV,Croatia,Europe & Central Asia,137,100321,732.2700729927008
+2019,HUN,Hungary,Europe & Central Asia,161,87812,545.416149068323
+2019,IRL,Ireland,Europe & Central Asia,13,3608,277.53846153846155
+2019,ISL,Iceland,Europe & Central Asia,7,1158,165.42857142857142
+2019,ITA,Italy,Europe & Central Asia,79,105256,1332.3544303797469
+2019,KAZ,Kazakhstan,Europe & Central Asia,18,9608,533.7777777777778
+2019,KGZ,Kyrgyz Republic,Europe & Central Asia,7,667,95.28571428571429
+2019,LTU,Lithuania,Europe & Central Asia,27,47575,1762.037037037037
+2019,LUX,Luxembourg,Europe & Central Asia,1,24,24
+2019,LVA,Latvia,Europe & Central Asia,9,10596,1177.3333333333333
+2019,MDA,Moldova,Europe & Central Asia,2,225,112.5
+2019,MKD,"Macedonia, FYR",Europe & Central Asia,11,8233,748.4545454545455
+2019,MNE,NA,Europe & Central Asia,5,995,199
+2019,NLD,Netherlands,Europe & Central Asia,66,32550098,493183.30303030304
+2019,NOR,Norway,Europe & Central Asia,18,37648,2091.5555555555557
+2019,POL,Poland,Europe & Central Asia,206,296748,1440.5242718446602
+2019,PRT,Portugal,Europe & Central Asia,90,81403,904.4777777777778
+2019,ROU,NA,Europe & Central Asia,119,41512,348.84033613445376
+2019,RUS,Russian Federation,Europe & Central Asia,786,586816,746.5852417302799
+2019,SRB,NA,Europe & Central Asia,42,88453,2106.0238095238096
+2019,SVK,Slovak Republic,Europe & Central Asia,24,38014,1583.9166666666667
+2019,SVN,Slovenia,Europe & Central Asia,38,23125,608.5526315789474
+2019,SWE,Sweden,Europe & Central Asia,39,25962,665.6923076923077
+2019,TJK,Tajikistan,Europe & Central Asia,1,120,120
+2019,TUR,Turkey,Europe & Central Asia,962,287003,298.33991683991684
+2019,UKR,Ukraine,Europe & Central Asia,372,209305,562.6478494623656
+2019,UZB,Uzbekistan,Europe & Central Asia,6,682,113.66666666666667
+2019,XKX,NA,Europe & Central Asia,1,1280,1280
+2019,ARG,Argentina,Latin America & the Caribbean,46,32856,714.2608695652174
+2019,BHS,"Bahamas, The",Latin America & the Caribbean,1,219,219
+2019,BOL,Bolivia,Latin America & the Caribbean,5,317,63.4
+2019,BRA,Brazil,Latin America & the Caribbean,957,1175264,1228.0710553814001
+2019,BRB,Barbados,Latin America & the Caribbean,1,147,147
+2019,CHL,Chile,Latin America & the Caribbean,44,96373,2190.2954545454545
+2019,COL,Colombia,Latin America & the Caribbean,155,105772,682.4
+2019,CRI,Costa Rica,Latin America & the Caribbean,11,19131,1739.1818181818182
+2019,CUB,Cuba,Latin America & the Caribbean,1,93,93
+2019,DOM,Dominican Republic,Latin America & the Caribbean,4,2096,524
+2019,ECU,Ecuador,Latin America & the Caribbean,56,17596,314.2142857142857
+2019,GTM,Guatemala,Latin America & the Caribbean,4,285,71.25
+2019,JAM,Jamaica,Latin America & the Caribbean,1,1631,1631
+2019,MEX,Mexico,Latin America & the Caribbean,130,90272,694.4
+2019,NIC,Nicaragua,Latin America & the Caribbean,1,7037,7037
+2019,PAN,Panama,Latin America & the Caribbean,2,511,255.5
+2019,PER,Peru,Latin America & the Caribbean,76,34835,458.35526315789474
+2019,PRI,Puerto Rico,Latin America & the Caribbean,5,727,145.4
+2019,PRY,Paraguay,Latin America & the Caribbean,11,2335,212.27272727272728
+2019,TTO,Trinidad and Tobago,Latin America & the Caribbean,1,12,12
+2019,URY,Uruguay,Latin America & the Caribbean,38,2793,73.5
+2019,VEN,Venezuela,Latin America & the Caribbean,3,795,265
+2019,VGB,British Virgin Islands,Latin America & the Caribbean,2,265077,132538.5
+2019,AFG,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",2,12395,6197.5
+2019,ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan",24,220983,9207.625
+2019,BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan",1,1347,1347
+2019,DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",47,10625,226.06382978723406
+2019,EGY,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",22,64796,2945.2727272727275
+2019,IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",105,34779,331.22857142857146
+2019,ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan",6,1410,235
+2019,JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",21,16250,773.8095238095239
+2019,KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan",4,1370,342.5
+2019,LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",7,1778,254
+2019,LBY,Libya,"Middle East, North Africa, Afghanistan & Pakistan",2,530,265
+2019,MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",4,793,198.25
+2019,OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan",2,1722,861
+2019,PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",116,45871,395.4396551724138
+2019,PSE,NA,"Middle East, North Africa, Afghanistan & Pakistan",9,764,84.88888888888889
+2019,QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan",7,6604,943.4285714285714
+2019,SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan",15,8222,548.1333333333333
+2019,SYR,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",2,155,77.5
+2019,TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",1,8,8
+2019,YEM,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",6,868,144.66666666666666
+2019,CAN,Canada,North America,178,752955,4230.0842696629215
+2019,USA,United States,North America,1321,40600931,30734.996971990917
+2019,BGD,Bangladesh,South Asia,19,32499,1710.4736842105262
+2019,BTN,Bhutan,South Asia,1,36,36
+2019,IND,India,South Asia,502,968339,1928.9621513944223
+2019,LKA,Sri Lanka,South Asia,7,14959,2137
+2019,NPL,Nepal,South Asia,5,21005,4201
+2019,BDI,Burundi,Sub-Saharan Africa,1,10,10
+2019,CMR,Cameroon,Sub-Saharan Africa,2,40,20
+2019,ETH,Ethiopia (excludes Eritrea),Sub-Saharan Africa,1,26,26
+2019,GHA,Ghana,Sub-Saharan Africa,6,184,30.666666666666668
+2019,KEN,Kenya,Sub-Saharan Africa,12,7869,655.75
+2019,MRT,Mauritania,Sub-Saharan Africa,1,40,40
+2019,MUS,Mauritius,Sub-Saharan Africa,3,1551,517
+2019,MWI,Malawi,Sub-Saharan Africa,1,21,21
+2019,NGA,Nigeria,Sub-Saharan Africa,42,36335,865.1190476190476
+2019,RWA,Rwanda,Sub-Saharan Africa,1,11,11
+2019,SDN,Sudan,Sub-Saharan Africa,1,58,58
+2019,SEN,Senegal,Sub-Saharan Africa,1,272,272
+2019,UGA,Uganda,Sub-Saharan Africa,1,8,8
+2019,ZAF,South Africa,Sub-Saharan Africa,33,138153,4186.454545454545
+2019,ZMB,Zambia,Sub-Saharan Africa,2,64,32
+2019,ZWE,Zimbabwe,Sub-Saharan Africa,1,12,12
+2018,AUS,Australia,East Asia & Pacific,94,169262,1800.659574468085
+2018,CHN,China,East Asia & Pacific,68,187817,2762.014705882353
+2018,HKG,"Hong Kong, China",East Asia & Pacific,28,52216,1864.857142857143
+2018,IDN,Indonesia,East Asia & Pacific,673,216391,321.5319465081724
+2018,JPN,Japan,East Asia & Pacific,624,2471231,3960.30608974359
+2018,KHM,Cambodia,East Asia & Pacific,2,165,82.5
+2018,KOR,"Korea, Rep.",East Asia & Pacific,1647,686043,416.5409836065574
+2018,LAO,Lao PDR,East Asia & Pacific,1,499,499
+2018,MAC,Macao,East Asia & Pacific,1,9,9
+2018,MNG,Mongolia,East Asia & Pacific,3,1247,415.6666666666667
+2018,MYS,Malaysia,East Asia & Pacific,47,22259,473.59574468085106
+2018,NZL,New Zealand,East Asia & Pacific,29,82153,2832.862068965517
+2018,PHL,Philippines,East Asia & Pacific,25,4881,195.24
+2018,SGP,Singapore,East Asia & Pacific,24,415487,17311.958333333332
+2018,THA,Thailand,East Asia & Pacific,20,6250,312.5
+2018,TLS,NA,East Asia & Pacific,1,9,9
+2018,TWN,Taiwan,East Asia & Pacific,16,11251,703.1875
+2018,VNM,Vietnam,East Asia & Pacific,15,11728,781.8666666666667
+2018,ALB,Albania,Europe & Central Asia,3,264,88
+2018,ARM,Armenia,Europe & Central Asia,3,4472,1490.6666666666667
+2018,AUT,Austria,Europe & Central Asia,38,133716,3518.842105263158
+2018,AZE,Azerbaijan,Europe & Central Asia,9,2757,306.3333333333333
+2018,BEL,Belgium,Europe & Central Asia,23,183121,7961.782608695652
+2018,BGR,Bulgaria,Europe & Central Asia,21,105265,5012.619047619048
+2018,BIH,Bosnia and Herzegovina,Europe & Central Asia,16,10817,676.0625
+2018,BLR,Belarus,Europe & Central Asia,7,1901,271.57142857142856
+2018,CHE,Switzerland,Europe & Central Asia,38,1651108,43450.21052631579
+2018,CYP,Cyprus,Europe & Central Asia,3,6839,2279.6666666666665
+2018,CZE,Czech Republic,Europe & Central Asia,60,86820,1447
+2018,DEU,Germany,Europe & Central Asia,99,3073788,31048.363636363636
+2018,DNK,Denmark,Europe & Central Asia,10,45975,4597.5
+2018,ESP,Spain,Europe & Central Asia,223,241588,1083.354260089686
+2018,EST,Estonia,Europe & Central Asia,11,7411,673.7272727272727
+2018,FIN,Finland,Europe & Central Asia,52,22698,436.5
+2018,FRA,France,Europe & Central Asia,46,1595733,34689.84782608696
+2018,FRO,Faeroe Islands,Europe & Central Asia,1,84,84
+2018,GBR,United Kingdom,Europe & Central Asia,336,16188645,48180.49107142857
+2018,GEO,Georgia,Europe & Central Asia,3,209,69.66666666666667
+2018,GRC,Greece,Europe & Central Asia,20,101830,5091.5
+2018,HRV,Croatia,Europe & Central Asia,122,86037,705.2213114754098
+2018,HUN,Hungary,Europe & Central Asia,105,77167,734.9238095238095
+2018,IRL,Ireland,Europe & Central Asia,11,3116,283.27272727272725
+2018,ISL,Iceland,Europe & Central Asia,7,708,101.14285714285714
+2018,ITA,Italy,Europe & Central Asia,64,88694,1385.84375
+2018,KAZ,Kazakhstan,Europe & Central Asia,16,6297,393.5625
+2018,KGZ,Kyrgyz Republic,Europe & Central Asia,2,158,79
+2018,LTU,Lithuania,Europe & Central Asia,19,33150,1744.7368421052631
+2018,LUX,Luxembourg,Europe & Central Asia,1,22,22
+2018,LVA,Latvia,Europe & Central Asia,8,7422,927.75
+2018,MDA,Moldova,Europe & Central Asia,1,175,175
+2018,MKD,"Macedonia, FYR",Europe & Central Asia,9,5824,647.1111111111111
+2018,MNE,NA,Europe & Central Asia,3,640,213.33333333333334
+2018,NLD,Netherlands,Europe & Central Asia,57,30899720,542100.350877193
+2018,NOR,Norway,Europe & Central Asia,18,33503,1861.2777777777778
+2018,POL,Poland,Europe & Central Asia,170,234065,1376.8529411764705
+2018,PRT,Portugal,Europe & Central Asia,80,69092,863.65
+2018,ROU,NA,Europe & Central Asia,87,29005,333.39080459770116
+2018,RUS,Russian Federation,Europe & Central Asia,610,418655,686.3196721311475
+2018,SRB,NA,Europe & Central Asia,42,74895,1783.2142857142858
+2018,SVK,Slovak Republic,Europe & Central Asia,18,30222,1679
+2018,SVN,Slovenia,Europe & Central Asia,34,18904,556
+2018,SWE,Sweden,Europe & Central Asia,32,22985,718.28125
+2018,TJK,Tajikistan,Europe & Central Asia,1,77,77
+2018,TUR,Turkey,Europe & Central Asia,804,222267,276.4514925373134
+2018,UKR,Ukraine,Europe & Central Asia,211,116893,553.9952606635071
+2018,UZB,Uzbekistan,Europe & Central Asia,3,473,157.66666666666666
+2018,ARG,Argentina,Latin America & the Caribbean,39,19653,503.9230769230769
+2018,BHS,"Bahamas, The",Latin America & the Caribbean,1,219,219
+2018,BOL,Bolivia,Latin America & the Caribbean,1,188,188
+2018,BRA,Brazil,Latin America & the Caribbean,811,970353,1196.489519112207
+2018,BRB,Barbados,Latin America & the Caribbean,1,98,98
+2018,CHL,Chile,Latin America & the Caribbean,34,87217,2565.205882352941
+2018,COL,Colombia,Latin America & the Caribbean,133,79852,600.390977443609
+2018,CRI,Costa Rica,Latin America & the Caribbean,6,14876,2479.3333333333335
+2018,DOM,Dominican Republic,Latin America & the Caribbean,3,1336,445.3333333333333
+2018,ECU,Ecuador,Latin America & the Caribbean,34,7877,231.6764705882353
+2018,GTM,Guatemala,Latin America & the Caribbean,1,7,7
+2018,JAM,Jamaica,Latin America & the Caribbean,1,1617,1617
+2018,MEX,Mexico,Latin America & the Caribbean,110,64445,585.8636363636364
+2018,NIC,Nicaragua,Latin America & the Caribbean,2,5701,2850.5
+2018,PAN,Panama,Latin America & the Caribbean,1,392,392
+2018,PER,Peru,Latin America & the Caribbean,48,23561,490.8541666666667
+2018,PRI,Puerto Rico,Latin America & the Caribbean,3,375,125
+2018,PRY,Paraguay,Latin America & the Caribbean,10,1608,160.8
+2018,TTO,Trinidad and Tobago,Latin America & the Caribbean,1,7,7
+2018,URY,Uruguay,Latin America & the Caribbean,30,1947,64.9
+2018,VEN,Venezuela,Latin America & the Caribbean,2,993,496.5
+2018,VGB,British Virgin Islands,Latin America & the Caribbean,2,238510,119255
+2018,AFG,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",2,8805,4402.5
+2018,ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan",21,202327,9634.619047619048
+2018,BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan",1,2250,2250
+2018,DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",3,190,63.333333333333336
+2018,EGY,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",15,23586,1572.4
+2018,IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",76,12783,168.19736842105263
+2018,ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan",4,1326,331.5
+2018,JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",7,11776,1682.2857142857142
+2018,KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan",2,8,4
+2018,LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",5,1597,319.4
+2018,MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",3,487,162.33333333333334
+2018,OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan",2,1570,785
+2018,PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",76,28978,381.2894736842105
+2018,QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan",5,4321,864.2
+2018,SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan",6,4954,825.6666666666666
+2018,TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",1,8,8
+2018,YEM,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",1,420,420
+2018,CAN,Canada,North America,161,669781,4160.130434782609
+2018,USA,United States,North America,1218,38013875,31210.07799671593
+2018,BGD,Bangladesh,South Asia,11,27083,2462.090909090909
+2018,BTN,Bhutan,South Asia,1,25,25
+2018,IND,India,South Asia,410,800564,1952.5951219512194
+2018,LKA,Sri Lanka,South Asia,6,13080,2180
+2018,NPL,Nepal,South Asia,3,17338,5779.333333333333
+2018,BDI,Burundi,Sub-Saharan Africa,1,10,10
+2018,CMR,Cameroon,Sub-Saharan Africa,1,11,11
+2018,ETH,Ethiopia (excludes Eritrea),Sub-Saharan Africa,1,15,15
+2018,GHA,Ghana,Sub-Saharan Africa,4,89,22.25
+2018,KEN,Kenya,Sub-Saharan Africa,8,6832,854
+2018,MUS,Mauritius,Sub-Saharan Africa,3,1084,361.3333333333333
+2018,MWI,Malawi,Sub-Saharan Africa,1,21,21
+2018,NGA,Nigeria,Sub-Saharan Africa,25,34063,1362.52
+2018,SEN,Senegal,Sub-Saharan Africa,1,198,198
+2018,UGA,Uganda,Sub-Saharan Africa,1,36,36
+2018,ZAF,South Africa,Sub-Saharan Africa,26,122883,4726.2692307692305
+2018,ZMB,Zambia,Sub-Saharan Africa,2,55,27.5

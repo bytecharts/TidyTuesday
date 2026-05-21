@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Crossref Participation Quadrants | Tidy Tuesday </title>
+    <meta
+      name="description"
+      content="Byte Charts - exploring data visualization, generative art. Crossref Participation Quadrants using Crossref participation data (TidyTuesday 2026 Week 20)."
+    />
+    <meta name="author" content="Byte Charts" />
+    <meta name="keywords" content="data visualization, generative art, Crossref, TidyTuesday, DOIs" />
+    <meta name="data-source" content="Crossref participation data (TidyTuesday 2026 Week 20)" />
+    <meta property="og:title" content="Crossref Participation Quadrants" />
+    <meta
+      property="og:description"
+      content="Byte Charts - exploring data visualization, generative art. Crossref Participation Quadrants using Crossref participation data (TidyTuesday 2026 Week 20)."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Crossref Participation Quadrants" />
+    <meta
+      name="twitter:description"
+      content="Byte Charts - exploring data visualization, generative art. Crossref Participation Quadrants using Crossref participation data (TidyTuesday 2026 Week 20)."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/crossref_quadrant_d3.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Crossref Participation Quadrants</h1>
+      <div class="subtitle">
+        Year: <span id="year-label">2018</span> | Quadrants split by yearly medians
+      </div>
+      <div class="subtitle subtitle-hint">Tip: press <span class="keycap">Space</span> to pause or play</div>
+      <div class="controls">
+        <span id="year-range"></span>
+      </div>
+      <div class="slider-wrap">
+        <button id="toggle">Pause</button>
+        <div class="slider-block">
+          <input id="year-slider" type="range" min="0" max="0" step="1" value="0" list="year-ticks" />
+          <datalist id="year-ticks"></datalist>
+          <div class="year-ticks" id="year-tick-labels"></div>
+        </div>
+      </div>
+      <div id="chart"></div>
+      <div class="caption"><strong>Viz</strong>: Byte Charts |
+        <strong>Source</strong>: Crossref | TidyTuesday 2026 Week 20</div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="static/crossref_quadrant_d3.js"></script>
+  </body>
+</html>
