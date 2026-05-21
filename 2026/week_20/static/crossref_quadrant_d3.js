@@ -212,7 +212,7 @@ const buildSlopeSvg = (leftValue, rightValue, color, leftLabel, rightLabel) => {
   ].join("");
 };
 
-d3.csv("../../../2026/week_20/data/crossref_quadrant_by_year.csv", d3.autoType).then((raw) => {
+d3.csv("../../../../TidyTuesday/2026/week_20/data/crossref_quadrant_by_year.csv", d3.autoType).then((raw) => {
   const data = raw.filter((d) => d.year >= 2018);
   const years = Array.from(new Set(data.map((d) => d.year))).sort(d3.ascending);
   const minYear = years[0];
