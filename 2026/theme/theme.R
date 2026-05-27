@@ -76,7 +76,7 @@ theme_base <- function(base_size = 12, base_family = "FiraSans") {
         margin = margin(b = 6)
       ),
       plot.subtitle = element_markdown(
-        size = 18,
+        size = 16,
         family = "FiraSans",
         hjust = 0,
         color = theme_muted,
