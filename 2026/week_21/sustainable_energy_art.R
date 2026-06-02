@@ -59,11 +59,18 @@ tile_polys <- losses_df |>
     y = country_index + (dx + dy) / sqrt(2)
   )
 
-p_art <- ggplot(tile_polys, aes(x = x, y = y, group = tile_id, fill = losses_pct)) +
+p_art <- ggplot(
+  tile_polys,
+  aes(x = x, y = y, group = tile_id, fill = losses_pct)
+) +
   geom_polygon(color = NA) +
   coord_equal() +
   scale_fill_gradientn(
-    colors = c(night_owlish_light$bg_soft, night_owlish_cat[4], night_owlish_cat[3]),
+    colors = c(
+      night_owlish_light$bg_soft,
+      night_owlish_cat[4],
+      night_owlish_cat[3]
+    ),
     guide = "none"
   ) +
   theme_void(base_size = 12) +
