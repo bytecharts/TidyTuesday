@@ -19,7 +19,7 @@ font_add("FiraSans", "../theme/fonts/FiraSans-Medium.ttf")
 font_add("FiraSansRegular", "../theme/fonts/FiraSans-Regular.ttf")
 font_add("FiraCode", "../theme/fonts/FiraCode-Medium.ttf")
 font_add("FiraCodeMedium", "../theme/fonts/FiraCode-Medium.ttf")
-font_add("NotoEmoji",  "../theme/fonts/NotoEmoji.ttf")
+font_add("NotoEmoji", "../theme/fonts/NotoEmoji.ttf")
 showtext_auto()
 showtext_opts(dpi = 300)
 
@@ -43,19 +43,20 @@ night_owlish_cat <- c(
   "#6C5CE7", # purple
   "#8A93A6", # neutral gray
   "#5CBFA8", # lighter aqua (derived from #5)
-  "#8B7CF0"  # lighter purple (derived from #6)
+  "#8B7CF0" # lighter purple (derived from #6)
 )
 
 base_colors <- list(
-  primary   = "#2A2F3A",
+  primary = "#2A2F3A",
   secondary = "#2E86AB",
-  light     = "#F2F4F8",
-  canvas    = "#FBFBFB",
-  bg        = "#FBFBFB",
-  neutral   = "#8A93A6"
+  light = "#F2F4F8",
+  canvas = "#FBFBFB",
+  bg = "#FBFBFB",
+  neutral = "#8A93A6"
 )
 
 theme_bg <- "#fff"
+primary <- base_colors$primary
 theme_fg <- base_colors$primary
 theme_muted <- "gray20"
 theme_title_family <- "SpaceGrotesk"
@@ -65,45 +66,61 @@ theme_caption_family <- "FiraSansRegular"
 theme_base <- function(base_size = 12, base_family = "FiraSans") {
   theme_minimal(base_size = base_size, base_family = base_family) +
     theme(
+      plot.title.position = "plot",
+      plot.caption.position = "plot",
       plot.background = element_rect(fill = NA, color = NA),
       panel.background = element_rect(fill = NA, color = NA),
-      plot.title = element_markdown(
+      plot.title = element_textbox_simple(
         family = theme_title_family,
+        color = primary,
         face = "bold",
-        size = 32,
-        color = theme_fg,
+        size = 48,
         hjust = 0,
-        margin = margin(b = 6)
+        width = unit(1, "npc"),
+        padding = margin(5, 1, 5, 1),
+        margin = margin(b = 6),
+        fill = "white",
+        box.color = "white"
       ),
-      plot.subtitle = element_markdown(
-        size = 16,
+      plot.subtitle = element_textbox_simple(
+        size = 28,
         family = "FiraSans",
         hjust = 0,
         color = theme_muted,
-        margin = margin(b = 25),
-        lineheight = 1.5
+        margin = margin(t = 25),
+        width = unit(1, "npc"),
+        lineheight = 1.5,
+        fill = "white",
+        box.color = "white"
       ),
       axis.title.x = element_text(
-        size = 12,
+        size = 24,
         color = theme_fg,
-        margin = margin(t = 10)
+        margin = margin(t = 20)
       ),
-      axis.title.y = element_blank(),
-      axis.text.x = element_text(size = 11, color = theme_fg),
-      axis.text.y = element_text(size = 11, color = theme_fg),
+      axis.title.y = element_text(
+        size = 24,
+        color = theme_fg,
+        margin = margin(r = 15)
+      ),
+      axis.text.x = element_text(
+        size = 18,
+        color = theme_fg,
+      ),
+      axis.text.y = element_text(size = 18, color = theme_fg),
       panel.grid.minor = element_blank(),
       panel.grid.major.y = element_blank(),
       plot.caption = element_markdown(
-        size = 9,
+        size = 16,
         color = theme_muted,
         hjust = 0,
         family = theme_caption_family,
         lineheight = 1.5,
         margin = margin(t = 15)
       ),
-      plot.margin = margin(30, 10, 30, 10),
+      plot.margin = margin(40, 40, 40, 40),
       legend.title = element_text(
-        size = 12,
+        size = 14,
         color = theme_muted,
         margin = margin(r = 10)
       ),
@@ -113,38 +130,63 @@ theme_base <- function(base_size = 12, base_family = "FiraSans") {
         margin = margin(r = 10)
       )
     )
-
 }
 # ---- Plot Caption ----
 caption_global <- function(source, day, topic) {
   paste(
-        "<span style='font-family: FiraSans;'><b>Viz</b></span> : Byte Charts | <span style='font-family: FiraSans;'>Source</span> : ", source,
-        paste0("<br>TidyTuesday 2026 \u2022 Week ", day, " \u2022 ", topic, "<br>",
-               "<img src='", "../theme/bluesky.png", "' width='7' style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;",
-               "   <img src='", "../theme/github.png", "' width='7'  style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;"
-               ),
-        sep = "\n"
+    "<span style='font-family: FiraSans;'><b>Viz</b></span> : Byte Charts | <span style='font-family: FiraSans;'>Source</span> : ",
+    source,
+    paste0(
+      "<br>TidyTuesday 2026 \u2022 Week ",
+      day,
+      " \u2022 ",
+      topic,
+      "<br>",
+      "<img src='",
+      "../theme/bluesky.png",
+      "' width='7' style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;",
+      "   <img src='",
+      "../theme/github.png",
+      "' width='7'  style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;"
+    ),
+    sep = "\n"
   )
 }
 # ---- Plot Caption ----
 caption_global_dark <- function(source, day, topic) {
   paste(
-        "<span style='font-family: FiraCodeMedium;'>Viz</span>: Byte Charts | ", source,
-        paste0("<br>TidyTuesday 2026 \u2022 Week ", day, " \u2022 ", topic, "<br>",
-               "<img src='", "../theme/bluesky_dark.png", "' width='7' style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;",
-               "   <img src='", "../theme/github_dark.png", "' width='7'  style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;"
-               ),
-        sep = "\n"
+    "<span style='font-family: FiraCodeMedium;'>Viz</span>: Byte Charts | ",
+    source,
+    paste0(
+      "<br>TidyTuesday 2026 \u2022 Week ",
+      day,
+      " \u2022 ",
+      topic,
+      "<br>",
+      "<img src='",
+      "../theme/bluesky_dark.png",
+      "' width='7' style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;",
+      "   <img src='",
+      "../theme/github_dark.png",
+      "' width='7'  style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;"
+    ),
+    sep = "\n"
   )
 }
 
 
 caption_general <- function(source) {
   paste(
-        "<span style='font-family: FiraCodeMedium;'>Viz</span>: Byte Charts | ", source,
-        paste0( "<img src='", "../theme/bluesky.png", "' width='7' style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;",
-               "   <img src='", "../theme/github.png", "' width='7'  style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;"
-               ),
-        sep = "\n"
+    "<span style='font-family: FiraCodeMedium;'>Viz</span>: Byte Charts | ",
+    source,
+    paste0(
+      "<img src='",
+      "../theme/bluesky.png",
+      "' width='7' style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;",
+      "   <img src='",
+      "../theme/github.png",
+      "' width='7'  style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;"
+    ),
+    sep = "\n"
   )
 }
