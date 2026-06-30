@@ -144,10 +144,10 @@ caption_global <- function(source, day, topic) {
       "<br>",
       "<img src='",
       "../theme/bluesky.png",
-      "' width='7' style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;",
+      "' width='10' style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;",
       "   <img src='",
       "../theme/github.png",
-      "' width='7'  style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;"
+      "' width='10'  style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;"
     ),
     sep = "\n"
   )
@@ -182,10 +182,10 @@ caption_general <- function(source) {
     paste0(
       "<img src='",
       "../theme/bluesky.png",
-      "' width='7' style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;",
+      "' width='9' style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;",
       "   <img src='",
       "../theme/github.png",
-      "' width='7'  style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;"
+      "' width='9'  style='vertical-align:bottom;'/>  byte-charts&nbsp;&nbsp;"
     ),
     sep = "\n"
   )
