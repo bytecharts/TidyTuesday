@@ -1,31 +1,34 @@
 library(tidytuesdayR)
 library(readr)
 
-# DRY function for any TidyTuesday dataset
 tt_cache <- function(year, week, folder = "data") {
-  # Ensure folder exists
+  # Create folder if needed
   if (!dir.exists(folder)) {
-    dir.create(folder)
+    dir.create(folder, recursive = TRUE)
   }
 
-  # Construct filename
-  file_path <- file.path(folder, paste0("tt_", year, "_", week, ".csv"))
-
-  # Return cached CSV if it exists
-  if (file.exists(file_path)) {
-    message("Reading cached CSV: ", file_path)
-    return(read_csv(file_path, show_col_types = FALSE))
-  }
-
-  # Download from TidyTuesday and save CSV
-  message("Downloading TidyTuesday ", year, " week ", week)
+  # Download TT data
   tt <- tidytuesdayR::tt_load(year, week)
 
-  # Take the first dataset (or specify one later)
-  first_dataset <- tt[[1]]
+  # Save every dataset in the list
+  for (nm in names(tt)) {
+    # Skip non-data-frame objects
+    if (!is.data.frame(tt[[nm]])) {
+      next
+    }
 
-  write_csv(first_dataset, file_path)
-  message("Saved CSV: ", file_path)
+    file_path <- file.path(
+      folder,
+      paste0("tt_", year, "_", week, "_", nm, ".csv")
+    )
 
-  return(first_dataset)
+    if (!file.exists(file_path)) {
+      write_csv(tt[[nm]], file_path)
+      message("Saved: ", file_path)
+    } else {
+      message("Already exists: ", file_path)
+    }
+  }
+
+  invisible(tt)
 }
