@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, initial-scale=1.0">
+<title>Manta Ray Observations in Australia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://d3js.org/topojson.v3.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #154D71;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    font-family: 'Fira Sans', 'Helvetica Neue', Arial, sans-serif;
+  }
+
+  .viz {
+    width: 1080px;
+    height: 1920px;
+    background: #154D71;
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 200px 60px 0;
+  }
+
+  header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    color: transparent;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1.1;
+  }
+
+  header p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    color: transparent;
+    margin-top: 6px;
+    font-weight: 400;
+  }
+
+  .human-color { color: transparent; }
+  .machine-color { color: transparent; }
+
+  .trend-section {
+    position: absolute;
+    top: 230px;
+    left: 0;
+    right: 0;
+    height: 400px;
+  }
+
+  .trend-section svg {
+    visibility: hidden;
+  }
+
+  .month-label-section {
+    display: none;
+  }
+
+  .month-name {
+    display: none;
+  }
+
+  .month-counts {
+    display: none;
+  }
+
+  .count-human, .count-machine {
+    display: none;
+  }
+
+  .map-section {
+    position: absolute;
+    top: 630px;
+    left: 0;
+    right: 0;
+    height: 920px;
+  }
+
+  .top5-section {
+    display: none;
+  }
+
+  .top5-card {
+    background: transparent;
+    border-radius: 12px;
+    padding: 20px 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top5-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+  }
+
+  .top5-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid transparent;
+  }
+
+  .top5-row:last-child {
+    border-bottom: none;
+  }
+
+  .top5-rank {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: transparent;
+    width: 30px;
+    text-align: center;
+  }
+
+  .top5-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: transparent;
+    flex: 1;
+  }
+
+  .top5-bar {
+    display: flex;
+    height: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+    min-width: 300px;
+  }
+
+  .top5-bar-human {
+    background: transparent;
+    height: 100%;
+  }
+
+  .top5-bar-machine {
+    background: transparent;
+    height: 100%;
+  }
+
+  .top5-counts {
+    display: flex;
+    gap: 12px;
+    min-width: 180px;
+    justify-content: flex-end;
+  }
+
+  .top5-count {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: transparent;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 60px;
+  }
+
+  footer .source {
+    font-size: 14px;
+    color: transparent;
+  }
+
+  footer .note {
+    font-size: 13px;
+    color: transparent;
+    font-style: italic;
+    margin-top: 4px;
+  }
+
+  .trend-axis text {
+    fill: transparent;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .trend-axis line,
+  .trend-axis path {
+    stroke: transparent;
+  }
+
+  .trend-grid line {
+    stroke: transparent;
+    stroke-dasharray: 2,4;
+  }
+
+  .trend-grid path {
+    stroke: none;
+  }
+
+  .city-card {
+  }
+
+  .indicator-line {
+    stroke: transparent;
+    stroke-width: 2;
+    stroke-dasharray: 6,4;
+    opacity: 0.6;
+  }
+
+  .indicator-dot {
+    fill: transparent;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .legend-symbol {
+    width: 12px;
+    height: 12px;
+  }
+
+  .city-labels { visibility: hidden; }
+  .map-month-label { visibility: hidden; }
+  .top5-map-card { visibility: hidden; }
+  .location-cards { visibility: hidden; }
+  .obs-human, .obs-machine { visibility: hidden; }
+  #manta-ray-img { visibility: hidden; }
+  #accumulated-overlay { visibility: hidden; }
+</style>
+</head>
+<body>
+<div class="viz">
+  <header>
+
+    <h1>Mantas, Month by Month    </h1>
+
+<p>Human and machine observations recorded around Australia, 2014–2024. <span class="human-color" id="total-human">0</span> human / <span class="machine-color" id="total-machine">0</span> machine / <span id="total-obs">0</span> total observations</p>
+  </header>
+
+  <section class="trend-section">
+    <svg id="trend-svg" width="1080" height="440"></svg>
+  </section>
+
+  <section class="month-label-section">
+    <div class="month-name" id="month-name">JANUARY</div>
+    <div class="month-counts">
+      <span class="count-human" id="count-human">0 human</span>
+      <span class="count-machine" id="count-machine">0 machine</span>
+    </div>
+  </section>
+
+  <section class="map-section">
+    <svg id="map-svg" width="1080" height="920" style="overflow: visible;"></svg>
+  </section>
+
+  <section class="top5-section">
+    <div class="top5-card">
+      <div class="top5-title">Top 5 Observation Locations</div>
+      <div id="top5-list"></div>
+    </div>
+  </section>
+
+  <footer>
+    <span class="note">Recorded observations do not necessarily represent manta-ray abundance.</span>
+    <span class="source">Viz: Byte Charts | Source: {ecotourism} package | TidyTuesday 2026 - Week 30</span>
+
+  </footer>
+</div>
+
+<script>
+// ─── CONFIG ───────────────────────────────────────────────────────────────────
+const MONTH_HOLD = 900;
+const TRANSITION_DURATION = 500;
+const LOOP_PAUSE = 1500;
+const ACCUMULATED_PAUSE = 3500;
+
+const MONTHS = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+const MONTH_FULL = ['January','February','March','April','May','June',
+                     'July','August','September','October','November','December'];
+
+const COLOR = {
+  human: '#E85D4A',
+  machine: '#33A1E0',
+  ocean: '#154D71',
+  land: '#D0D8E0',
+  stateBorder: '#33A1E0',
+  muted: '#556677',
+  bg: '#154D71'
+};
+
+// ─── STATE ────────────────────────────────────────────────────────────────────
+let currentMonth = 0;
+let playing = false;
+let timer = null;
+let trendData = [];
+let mapData = [];
+let australiaGeo = null;
+
+// ─── LOAD DATA ────────────────────────────────────────────────────────────────
+Promise.all([
+  d3.csv('./data/occurrences.csv'),
+  d3.json('./data/au_states.geojson')
+]).then(([rawCsv, geo]) => {
+  // Filter manta ray, keep only human/machine
+  const filtered = rawCsv.filter(d =>
+    d.organism_name === 'Manta ray' &&
+    (d.record_type === 'HUMAN_OBSERVATION' || d.record_type === 'MACHINE_OBSERVATION')
+  );
+
+  // Aggregate by month + record_type for trend
+  const grouped = d3.rollup(filtered,
+    v => v.length,
+    d => +d.month,
+    d => d.record_type
+  );
+
+  trendData = MONTHS.map((m, i) => {
+    const monthNum = i + 1;
+    const h = grouped.get(monthNum)?.get('HUMAN_OBSERVATION') || 0;
+    const mc = grouped.get(monthNum)?.get('MACHINE_OBSERVATION') || 0;
+    return { month: i, human: h, machine: mc };
+  });
+
+  // Map data: individual obs with month, record_type, coordinates
+  mapData = filtered.map(d => ({
+    lat: +d.obs_lat,
+    lon: +d.obs_lon,
+    month: +d.month - 1,
+    type: d.record_type === 'HUMAN_OBSERVATION' ? 'human' : 'machine'
+  }));
+
+  australiaGeo = geo;
+
+  init();
+});
+
+// ─── INIT ─────────────────────────────────────────────────────────────────────
+function init() {
+  // Calculate totals
+  const totalHuman = trendData.reduce((sum, d) => sum + d.human, 0);
+  const totalMachine = trendData.reduce((sum, d) => sum + d.machine, 0);
+  const totalObs = totalHuman + totalMachine;
+
+  // Update subtitle stats
+  document.getElementById('total-obs').textContent = totalObs.toLocaleString();
+  document.getElementById('total-human').textContent = totalHuman.toLocaleString();
+  document.getElementById('total-machine').textContent = totalMachine.toLocaleString();
+
+  drawTrend();
+  drawMap();
+  updateMonth(0);
+
+  // Top 5 summaries (this month)
+  renderTop5(0);
+  renderTop5Cities(0);
+
+  playAnimation();
+}
+
+// ─── TREND CHART ──────────────────────────────────────────────────────────────
+function drawTrend() {
+  const svg = d3.select('#trend-svg');
+  const margin = { top: 60, right: 80, bottom: 60, left: 100 };
+  const w = 1080 - margin.left - margin.right;
+  const h = 440 - margin.top - margin.bottom;
+
+  const g = svg.append('g')
+    .attr('transform', `translate(${margin.left},${margin.top})`);
+
+  // Scales
+  const x = d3.scalePoint()
+    .domain(MONTHS)
+    .range([0, w]);
+
+  const maxVal = d3.max(trendData, d => Math.max(d.human, d.machine));
+  const y = d3.scaleLinear()
+    .domain([0, maxVal * 1.15])
+    .range([h, 0]);
+
+  // Grid
+  g.append('g')
+    .attr('class', 'trend-grid')
+    .call(d3.axisLeft(y)
+      .ticks(5)
+      .tickSize(-w)
+      .tickFormat(''));
+
+  // Axes
+  g.append('g')
+    .attr('class', 'trend-axis')
+    .attr('transform', `translate(0,${h})`)
+    .call(d3.axisBottom(x).tickSize(0).tickPadding(12));
+
+  g.append('g')
+    .attr('class', 'trend-axis')
+    .call(d3.axisLeft(y)
+      .ticks(5)
+      .tickSize(-6)
+      .tickFormat(d3.format('d')));
+
+  // Y-axis label
+  g.append('text')
+    .attr('transform', 'rotate(-90)')
+    .attr('y', -70)
+    .attr('x', -h / 2)
+    .attr('text-anchor', 'middle')
+    .attr('fill', '#8899AA')
+    .attr('font-size', 14)
+    .attr('font-weight', 500)
+    .text('Number of recorded observations');
+
+  // Line generators
+  const lineHuman = d3.line()
+    .x(d => x(MONTHS[d.month]))
+    .y(d => y(d.human))
+    .curve(d3.curveMonotoneX);
+
+  const lineMachine = d3.line()
+    .x(d => x(MONTHS[d.month]))
+    .y(d => y(d.machine))
+    .curve(d3.curveMonotoneX);
+
+  // Draw lines
+  g.append('path')
+    .datum(trendData)
+    .attr('fill', 'none')
+    .attr('stroke', COLOR.machine)
+    .attr('stroke-width', 3)
+    .attr('d', lineMachine);
+
+  g.append('path')
+    .datum(trendData)
+    .attr('fill', 'none')
+    .attr('stroke', COLOR.human)
+    .attr('stroke-width', 3)
+    .attr('d', lineHuman);
+
+  // Data points - machine
+  g.selectAll('.point-machine')
+    .data(trendData)
+    .join('circle')
+    .attr('class', 'point-machine')
+    .attr('cx', d => x(MONTHS[d.month]))
+    .attr('cy', d => y(d.machine))
+    .attr('r', 5)
+    .attr('fill', COLOR.machine);
+
+  // Data points - human (circles)
+  g.selectAll('.point-human')
+    .data(trendData)
+    .join('circle')
+    .attr('class', 'point-human')
+    .attr('cx', d => x(MONTHS[d.month]))
+    .attr('cy', d => y(d.human))
+    .attr('r', 5)
+    .attr('fill', COLOR.human);
+
+  // Legend
+  const legend = svg.append('g')
+    .attr('transform', `translate(${margin.left + w - 200}, ${margin.top - 30})`);
+
+  // Human legend
+  legend.append('circle')
+    .attr('cx', 0).attr('cy', 0).attr('r', 6)
+    .attr('fill', COLOR.human);
+  legend.append('text')
+    .attr('x', 14).attr('y', 5)
+    .attr('fill', '#CCDDEE')
+    .attr('font-size', 14)
+    .attr('font-weight', 600)
+    .text('Human');
+
+  // Machine legend
+  legend.append('circle')
+    .attr('cx', 96).attr('cy', 0).attr('r', 6)
+    .attr('fill', COLOR.machine);
+  legend.append('text')
+    .attr('x', 108).attr('y', 5)
+    .attr('fill', '#CCDDEE')
+    .attr('font-size', 14)
+    .attr('font-weight', 600)
+    .text('Machine');
+
+  // Month indicator line (initial position)
+  g.append('line')
+    .attr('class', 'indicator-line')
+    .attr('id', 'indicator-line')
+    .attr('x1', x('JAN'))
+    .attr('y1', -10)
+    .attr('x2', x('JAN'))
+    .attr('y2', h + 10);
+
+  // Indicator dot at top
+  g.append('circle')
+    .attr('class', 'indicator-dot')
+    .attr('id', 'indicator-dot')
+    .attr('cx', x('JAN'))
+    .attr('cy', -15)
+    .attr('r', 6);
+
+  // Accumulated overlay (hidden by default)
+  g.append('rect')
+    .attr('id', 'accumulated-overlay')
+    .attr('x', x('JAN') - 20)
+    .attr('y', -10)
+    .attr('width', x('DEC') - x('JAN') + 40)
+    .attr('height', h + 20)
+    .attr('fill', '#FFFFFF')
+    .attr('opacity', 0)
+    .attr('rx', 4);
+
+  // Store x scale for animation
+  window._trendX = x;
+  window._trendG = g;
+}
+
+// ─── MAP ──────────────────────────────────────────────────────────────────────
+function drawMap() {
+  const svg = d3.select('#map-svg');
+  const margin = { top: 20, right: 40, bottom: 40, left: 40 };
+  const w = 1080 - margin.left - margin.right;
+  const h = 920 - margin.top - margin.bottom;
+
+  const g = svg.append('g')
+    .attr('transform', `translate(${margin.left},${margin.top})`);
+
+  // Projection for Australia
+  const projection = d3.geoMercator()
+    .center([134, -27])
+    .scale(1)
+    .translate([0, 0]);
+
+  const path = d3.geoPath().projection(projection);
+
+  // Fit to extent
+  projection.fitExtent([[20, 20], [w - 20, h - 20]], australiaGeo);
+
+  // Ocean background
+  g.append('rect')
+    .attr('width', w)
+    .attr('height', h)
+    .attr('fill', COLOR.ocean)
+    .attr('rx', 4);
+
+  // Land
+  g.selectAll('.land')
+    .data(australiaGeo.features)
+    .join('path')
+    .attr('class', 'land')
+    .attr('d', path)
+    .attr('fill', COLOR.land)
+    .attr('stroke', COLOR.ocean)
+    .attr('stroke-width', 1);
+
+  // State boundaries
+  g.selectAll('.state-border')
+    .data(australiaGeo.features)
+    .join('path')
+    .attr('class', 'state-border')
+    .attr('d', path)
+    .attr('fill', 'none')
+    .attr('stroke', COLOR.stateBorder)
+    .attr('stroke-width', 0.5)
+    .attr('opacity', 0.3);
+
+  // City labels (always visible, colored by dominant type over all months)
+  const cityLabels = [
+    { name: 'Cairns', lon: 145.77, lat: -16.92, anchor: 'start', dx: 8, dy: -8, radius: 2.5 },
+    { name: 'Townsville', lon: 146.82, lat: -19.26, anchor: 'start', dx: 8, dy: -8, radius: 2 },
+    { name: 'Mackay', lon: 149.18, lat: -21.17, anchor: 'start', dx: 8, dy: -8, radius: 2 },
+    { name: 'Brisbane', lon: 153.03, lat: -27.47, anchor: 'start', dx: 8, dy: -8, radius: 2.5 },
+    { name: 'Sydney', lon: 151.21, lat: -33.87, anchor: 'start', dx: 8, dy: -8, radius: 2.5 },
+    { name: 'Melbourne', lon: 144.96, lat: -37.81, anchor: 'end', dx: -8, dy: -8, radius: 2.5 },
+    { name: 'Adelaide', lon: 138.60, lat: -34.93, anchor: 'end', dx: -8, dy: -8, radius: 2.5 },
+    { name: 'Perth', lon: 115.86, lat: -31.95, anchor: 'end', dx: -8, dy: -8, radius: 2.5 },
+    { name: 'Broome', lon: 122.23, lat: -17.96, anchor: 'end', dx: -8, dy: -8, radius: 2 }
+  ];
+
+  // Compute dominant type per city across all months
+  const cityColors = cityLabels.map(city => {
+    const cityObs = mapData.filter(d => {
+      const dist = Math.sqrt(Math.pow(d.lon - city.lon, 2) + Math.pow(d.lat - city.lat, 2));
+      return dist < city.radius;
+    });
+    const humanCount = cityObs.filter(d => d.type === 'human').length;
+    const machineCount = cityObs.filter(d => d.type === 'machine').length;
+    return humanCount >= machineCount ? COLOR.human : COLOR.machine;
+  });
+
+  const cityLabelG = g.append('g').attr('class', 'city-labels');
+
+  cityLabels.forEach((city, i) => {
+    const [px, py] = projection([city.lon, city.lat]);
+    if (!px || !py) return;
+    const col = cityColors[i];
+
+    // Background pill - wrapped around text
+    const pillPad = 6;
+    const pillH = 20;
+    const pillW = city.name.length * 7 + pillPad * 2;
+    const textX = px + city.dx;
+    const pillX = city.anchor === 'start' ? textX - pillPad : textX - pillW + pillPad;
+    const pillY = py - 18;
+
+    cityLabelG.append('rect')
+      .attr('x', pillX).attr('y', pillY)
+      .attr('width', pillW).attr('height', pillH)
+      .attr('rx', 4).attr('fill', '#0D1B2A')
+      .attr('opacity', 0.8);
+
+    // Dot
+    cityLabelG.append('circle')
+      .attr('cx', px).attr('cy', py)
+      .attr('r', 3)
+      .attr('fill', col)
+      .attr('opacity', 0.8);
+
+    // Label
+    cityLabelG.append('text')
+      .attr('x', px + city.dx).attr('y', py + city.dy)
+      .attr('fill', col)
+      .attr('font-family', "'Fira Sans', sans-serif")
+      .attr('font-size', 11)
+      .attr('font-weight', 600)
+      .attr('text-anchor', city.anchor)
+      .attr('opacity', 0.85)
+      .text(city.name);
+  });
+
+  // Month label inside map (top-left ocean area)
+  const monthG = g.append('g').attr('class', 'map-month-label');
+  monthG.append('text')
+    .attr('id', 'map-month-name')
+    .attr('x', 30).attr('y', 50)
+    .attr('fill', '#FFFFFF')
+    .attr('font-family', "'Space Grotesk', sans-serif")
+    .attr('font-size', 48)
+    .attr('font-weight', 800)
+    .attr('letter-spacing', 4)
+    .attr('opacity', 0.9)
+    .text('JANUARY');
+
+  monthG.append('text')
+    .attr('id', 'map-month-human')
+    .attr('x', 30).attr('y', 78)
+    .attr('fill', COLOR.human)
+    .attr('font-family', "'Fira Sans', sans-serif")
+    .attr('font-size', 18)
+    .attr('font-weight', 600)
+    .attr('opacity', 0.85)
+    .text('0 human');
+
+  monthG.append('text')
+    .attr('id', 'map-month-machine')
+    .attr('x', 30).attr('y', 102)
+    .attr('fill', COLOR.machine)
+    .attr('font-family', "'Fira Sans', sans-serif")
+    .attr('font-size', 18)
+    .attr('font-weight', 600)
+    .attr('opacity', 0.85)
+    .text('0 machine');
+
+  // Top 5 cards side by side inside map (bottom ocean area)
+  const cardGap = 20;
+  const cardW = (w - 60 - cardGap) / 2;
+  const cardH = 190;
+  const cardY = h - 200;
+
+  // Left card: Top 5 Locations
+  const top5LocG = g.append('g').attr('class', 'top5-map-card');
+  const top5LocX = 30;
+
+  top5LocG.append('rect')
+    .attr('x', top5LocX).attr('y', cardY)
+    .attr('width', cardW).attr('height', cardH)
+    .attr('rx', 10).attr('fill', '#0D1B2A')
+    .attr('stroke', '#2A3A4A').attr('stroke-width', 1)
+    .attr('opacity', 0.92);
+
+  top5LocG.append('text')
+    .attr('x', top5LocX + 20).attr('y', cardY + 28)
+    .attr('fill', '#FFFFFF')
+    .attr('font-family', "'Space Grotesk', sans-serif")
+    .attr('font-size', 15).attr('font-weight', 700)
+    .attr('letter-spacing', 2)
+    .text('TOP 5 LOCATIONS');
+
+  // Right card: Top 5 Cities
+  const top5CityG = g.append('g').attr('class', 'top5-map-card');
+  const top5CityX = 30 + cardW + cardGap;
+
+  top5CityG.append('rect')
+    .attr('x', top5CityX).attr('y', cardY)
+    .attr('width', cardW).attr('height', cardH)
+    .attr('rx', 10).attr('fill', '#0D1B2A')
+    .attr('stroke', '#2A3A4A').attr('stroke-width', 1)
+    .attr('opacity', 0.92);
+
+  top5CityG.append('text')
+    .attr('x', top5CityX + 20).attr('y', cardY + 28)
+    .attr('fill', '#FFFFFF')
+    .attr('font-family', "'Space Grotesk', sans-serif")
+    .attr('font-size', 15).attr('font-weight', 700)
+    .attr('letter-spacing', 2)
+    .text('TOP 5 CITIES');
+
+  window._top5LocG = top5LocG;
+  window._top5LocX = top5LocX;
+  window._top5CardY = cardY;
+  window._top5CardW = cardW;
+
+  window._top5CityG = top5CityG;
+  window._top5CityX = top5CityX;
+
+  // Manta ray SVG along curved path below cards
+  const mantaW = 120;
+  const mantaH = 85;
+
+  // Curved path: middle-right to bottom-left
+  const curvePath = `M ${w + mantaW} ${h * 0.7} Q ${w * 0.5} ${h * 0.78}, ${-mantaW} ${h * 0.95}`;
+
+  // Draw path (invisible)
+  const pathNode = g.append('path')
+    .attr('d', curvePath)
+    .attr('fill', 'none')
+    .attr('stroke', 'none')
+    .node();
+
+  // Manta ray image
+  const mantaImg = g.append('image')
+    .attr('href', './manta_ray.svg')
+    .attr('width', mantaW)
+    .attr('height', mantaH)
+    .attr('opacity', 0.6);
+
+  // Animate along path
+
+  function animateManta() {
+    const len = pathNode.getTotalLength();
+    const duration = 20000;
+
+    function loop() {
+      const start = pathNode.getPointAtLength(0);
+      mantaImg
+        .attr('x', start.x - mantaW)
+        .attr('y', start.y - mantaH / 2)
+        .transition()
+        .duration(duration)
+        .ease(d3.easeLinear)
+        .attrTween('x', () => {
+          return t => {
+            const p = pathNode.getPointAtLength(t * len);
+            return p.x - mantaW / 2;
+          };
+        })
+        .attrTween('y', () => {
+          return t => {
+            const p = pathNode.getPointAtLength(t * len);
+            return p.y - mantaH / 2;
+          };
+        })
+        .on('end', loop);
+    }
+
+    loop();
+  }
+
+  animateManta();
+
+  // Store for updates
+  window._mapG = g;
+  window._mapProjection = projection;
+  window._mapPath = path;
+  window._mapW = w;
+  window._mapH = h;
+}
+
+// ─── UPDATE MONTH ─────────────────────────────────────────────────────────────
+function updateMonth(monthIdx) {
+  currentMonth = monthIdx;
+
+  // Update month label inside map
+  d3.select('#map-month-name').text(MONTH_FULL[monthIdx]);
+  const data = trendData[monthIdx];
+  d3.select('#map-month-human').text(`${data.human} human`);
+  d3.select('#map-month-machine').text(`${data.machine} machine`);
+
+  // Move indicator
+  const x = window._trendX;
+  const xPos = x(MONTHS[monthIdx]);
+
+  d3.select('#indicator-line')
+    .transition()
+    .duration(TRANSITION_DURATION)
+    .attr('x1', xPos)
+    .attr('x2', xPos);
+
+  d3.select('#indicator-dot')
+    .transition()
+    .duration(TRANSITION_DURATION)
+    .attr('cx', xPos);
+
+  // Update map
+  updateMap(monthIdx);
+
+  // Update top 5 summaries for this month
+  renderTop5(monthIdx);
+  renderTop5Cities(monthIdx);
+}
+
+// ─── UPDATE MAP ───────────────────────────────────────────────────────────────
+function updateMap(monthIdx) {
+  const g = window._mapG;
+  const projection = window._mapProjection;
+
+  // Filter data for current month
+  const monthObs = mapData.filter(d => d.month === monthIdx);
+
+  // Aggregate by rounded coordinates
+  const aggregated = d3.rollup(monthObs,
+    v => ({
+      count: v.length,
+      type: v[0].type,
+      lon: d3.mean(v, d => d.lon),
+      lat: d3.mean(v, d => d.lat)
+    }),
+    d => `${Math.round(d.lon * 50) / 50}_${Math.round(d.lat * 50) / 50}`
+  );
+
+  const points = Array.from(aggregated.values());
+
+  // Size scale (sqrt)
+  const maxCount = d3.max(points, d => d.count) || 1;
+  const sizeScale = d3.scaleSqrt()
+    .domain([0, maxCount])
+    .range([6, 40]);
+
+  // Project points
+  const projected = points.map(d => {
+    const [px, py] = projection([d.lon, d.lat]);
+    return { ...d, px, py };
+  }).filter(d => d.px && d.py);
+
+  // Human observations
+  const humans = projected.filter(d => d.type === 'human');
+  const machines = projected.filter(d => d.type === 'machine');
+
+  // Human circles
+  g.selectAll('.obs-human')
+    .data(humans, d => `${d.lon}_${d.lat}`)
+    .join(
+      enter => enter.append('circle')
+        .attr('class', 'obs-human')
+        .attr('cx', d => d.px)
+        .attr('cy', d => d.py)
+        .attr('r', 0)
+        .attr('fill', COLOR.human)
+        .attr('opacity', 0.75)
+        .call(enter => enter.transition()
+          .duration(TRANSITION_DURATION)
+          .attr('r', d => sizeScale(d.count))),
+      update => update.call(update => update.transition()
+        .duration(TRANSITION_DURATION)
+        .attr('cx', d => d.px)
+        .attr('cy', d => d.py)
+        .attr('r', d => sizeScale(d.count))),
+      exit => exit.call(exit => exit.transition()
+        .duration(TRANSITION_DURATION)
+        .attr('r', 0)
+        .remove())
+    );
+
+  // Machine circles (same shape, different color)
+  g.selectAll('.obs-machine')
+    .data(machines, d => `${d.lon}_${d.lat}`)
+    .join(
+      enter => enter.append('circle')
+        .attr('class', 'obs-machine')
+        .attr('cx', d => d.px)
+        .attr('cy', d => d.py)
+        .attr('r', 0)
+        .attr('fill', COLOR.machine)
+        .attr('opacity', 0.75)
+        .call(enter => enter.transition()
+          .duration(TRANSITION_DURATION)
+          .attr('r', d => sizeScale(d.count))),
+      update => update.call(update => update.transition()
+        .duration(TRANSITION_DURATION)
+        .attr('cx', d => d.px)
+        .attr('cy', d => d.py)
+        .attr('r', d => sizeScale(d.count))),
+      exit => exit.call(exit => exit.transition()
+        .duration(TRANSITION_DURATION)
+        .attr('r', 0)
+        .remove())
+    );
+}
+
+// ─── TOP 5 LOCATIONS ────────────────────────────────────────────────────────
+function renderTop5(monthIdx) {
+  const top5G = window._top5LocG;
+  const top5X = window._top5LocX;
+  const cardY = window._top5CardY;
+  const cardW = window._top5CardW;
+
+  top5G.selectAll('.top5-row').remove();
+
+  // monthIdx -1 = accumulated (all months)
+  const monthObs = monthIdx === -1 ? mapData : mapData.filter(d => d.month === monthIdx);
+
+  const aggregated = d3.rollup(monthObs,
+    v => ({
+      count: v.length,
+      human: v.filter(d => d.type === 'human').length,
+      machine: v.filter(d => d.type === 'machine').length,
+      lon: d3.mean(v, d => d.lon),
+      lat: d3.mean(v, d => d.lat)
+    }),
+    d => `${Math.round(d.lon * 50) / 50}_${Math.round(d.lat * 50) / 50}`
+  );
+
+  const allLocations = Array.from(aggregated.values());
+  const maxCount = d3.max(allLocations, d => d.count) || 1;
+
+  const top5 = allLocations
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 5);
+
+  const rowH = 28;
+  const startY = cardY + 48;
+  const barMaxW = cardW - 200;
+
+  const rowG = top5G.append('g').attr('class', 'top5-row');
+
+  top5.forEach((loc, i) => {
+    const y = startY + i * rowH;
+    const barW = Math.max(4, (loc.count / maxCount) * barMaxW);
+    const humanW = loc.count > 0 ? (loc.human / loc.count) * barW : 0;
+    const machineW = loc.count > 0 ? (loc.machine / loc.count) * barW : 0;
+
+    rowG.append('text')
+      .attr('x', top5X + 16).attr('y', y + 14)
+      .attr('fill', '#556677')
+      .attr('font-family', "'Space Grotesk', sans-serif")
+      .attr('font-size', 13).attr('font-weight', 800)
+      .text(`${i + 1}`);
+
+    rowG.append('text')
+      .attr('x', top5X + 36).attr('y', y + 14)
+      .attr('fill', '#FFFFFF')
+      .attr('font-family', "'Fira Sans', sans-serif")
+      .attr('font-size', 12).attr('font-weight', 600)
+      .text(`${loc.lat.toFixed(1)}°, ${loc.lon.toFixed(1)}°`);
+
+    if (humanW > 0) {
+      rowG.append('rect')
+        .attr('x', top5X + 160).attr('y', y + 2)
+        .attr('width', humanW).attr('height', 14)
+        .attr('rx', 3).attr('fill', COLOR.human);
+    }
+
+    if (machineW > 0) {
+      rowG.append('rect')
+        .attr('x', top5X + 160 + humanW).attr('y', y + 2)
+        .attr('width', machineW).attr('height', 14)
+        .attr('rx', 3).attr('fill', COLOR.machine);
+    }
+
+    rowG.append('text')
+      .attr('x', top5X + 160 + barW + 8).attr('y', y + 13)
+      .attr('fill', '#CCDDEE')
+      .attr('font-family', "'Fira Sans', sans-serif")
+      .attr('font-size', 11).attr('font-weight', 600)
+      .text(`${loc.count}`);
+  });
+}
+
+// ─── TOP 5 CITIES ──────────────────────────────────────────────────────────
+const CITIES = [
+  { name: 'Cairns', lon: 146.50, lat: -18.70, radius: 2.5 },
+  { name: 'Townsville', lon: 146.82, lat: -19.26, radius: 2 },
+  { name: 'Mackay', lon: 149.18, lat: -21.17, radius: 2 },
+  { name: 'Brisbane', lon: 153.03, lat: -27.47, radius: 2.5 },
+  { name: 'Sydney', lon: 151.21, lat: -33.87, radius: 2.5 },
+  { name: 'Melbourne', lon: 144.96, lat: -37.81, radius: 2.5 },
+  { name: 'Adelaide', lon: 138.60, lat: -34.93, radius: 2.5 },
+  { name: 'Perth', lon: 115.86, lat: -31.95, radius: 2.5 }
+];
+
+function renderTop5Cities(monthIdx) {
+  const top5G = window._top5CityG;
+  const top5X = window._top5CityX;
+  const cardY = window._top5CardY;
+  const cardW = window._top5CardW;
+
+  top5G.selectAll('.top5-row').remove();
+
+  // monthIdx -1 = accumulated (all months)
+  const monthObs = monthIdx === -1 ? mapData : mapData.filter(d => d.month === monthIdx);
+
+  // Aggregate by city
+  const cityData = CITIES.map(city => {
+    const cityObs = monthObs.filter(d => {
+      const dist = Math.sqrt(Math.pow(d.lon - city.lon, 2) + Math.pow(d.lat - city.lat, 2));
+      return dist < city.radius;
+    });
+    return {
+      name: city.name,
+      count: cityObs.length,
+      human: cityObs.filter(d => d.type === 'human').length,
+      machine: cityObs.filter(d => d.type === 'machine').length
+    };
+  });
+
+  const maxCount = d3.max(cityData, d => d.count) || 1;
+
+  const top5 = cityData
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 5);
+
+  const rowH = 28;
+  const startY = cardY + 48;
+  const barMaxW = cardW - 180;
+
+  const rowG = top5G.append('g').attr('class', 'top5-row');
+
+  top5.forEach((city, i) => {
+    const y = startY + i * rowH;
+    const barW = Math.max(4, (city.count / maxCount) * barMaxW);
+    const humanW = city.count > 0 ? (city.human / city.count) * barW : 0;
+    const machineW = city.count > 0 ? (city.machine / city.count) * barW : 0;
+
+    rowG.append('text')
+      .attr('x', top5X + 16).attr('y', y + 14)
+      .attr('fill', '#556677')
+      .attr('font-family', "'Space Grotesk', sans-serif")
+      .attr('font-size', 13).attr('font-weight', 800)
+      .text(`${i + 1}`);
+
+    rowG.append('text')
+      .attr('x', top5X + 36).attr('y', y + 14)
+      .attr('fill', '#FFFFFF')
+      .attr('font-family', "'Fira Sans', sans-serif")
+      .attr('font-size', 12).attr('font-weight', 600)
+      .text(city.name);
+
+    if (humanW > 0) {
+      rowG.append('rect')
+        .attr('x', top5X + 130).attr('y', y + 2)
+        .attr('width', humanW).attr('height', 14)
+        .attr('rx', 3).attr('fill', COLOR.human);
+    }
+
+    if (machineW > 0) {
+      rowG.append('rect')
+        .attr('x', top5X + 130 + humanW).attr('y', y + 2)
+        .attr('width', machineW).attr('height', 14)
+        .attr('rx', 3).attr('fill', COLOR.machine);
+    }
+
+    rowG.append('text')
+      .attr('x', top5X + 130 + barW + 8).attr('y', y + 13)
+      .attr('fill', '#CCDDEE')
+      .attr('font-family', "'Fira Sans', sans-serif")
+      .attr('font-size', 11).attr('font-weight', 600)
+      .text(`${city.count}`);
+  });
+}
+
+// ─── ACCUMULATED STATE ──────────────────────────────────────────────────────
+function showAccumulated() {
+  // Month label
+  d3.select('#map-month-name').text('ALL MONTHS');
+  const totalH = trendData.reduce((s, d) => s + d.human, 0);
+  const totalM = trendData.reduce((s, d) => s + d.machine, 0);
+  d3.select('#map-month-human').text(`${totalH} human`);
+  d3.select('#map-month-machine').text(`${totalM} machine`);
+
+  // Trend: show grey overlay, hide indicator
+  d3.select('#indicator-line')
+    .transition().duration(TRANSITION_DURATION)
+    .attr('opacity', 0);
+
+  d3.select('#indicator-dot')
+    .transition().duration(TRANSITION_DURATION)
+    .attr('r', 0);
+
+  d3.select('#accumulated-overlay')
+    .transition().duration(TRANSITION_DURATION)
+    .attr('opacity', 0.15);
+
+  // Map: show all months accumulated
+  updateMapAccumulated();
+
+  // Cards: show accumulated
+  renderTop5(-1);
+  renderTop5Cities(-1);
+}
+
+function updateMapAccumulated() {
+  const g = window._mapG;
+  const projection = window._mapProjection;
+
+  const aggregated = d3.rollup(mapData,
+    v => ({
+      count: v.length,
+      type: v.filter(d => d.type === 'human').length >= v.filter(d => d.type === 'machine').length ? 'human' : 'machine',
+      human: v.filter(d => d.type === 'human').length,
+      machine: v.filter(d => d.type === 'machine').length,
+      lon: d3.mean(v, d => d.lon),
+      lat: d3.mean(v, d => d.lat)
+    }),
+    d => `${Math.round(d.lon * 50) / 50}_${Math.round(d.lat * 50) / 50}`
+  );
+
+  const points = Array.from(aggregated.values());
+
+  const maxCount = d3.max(points, d => d.count) || 1;
+  const sizeScale = d3.scaleSqrt()
+    .domain([0, maxCount])
+    .range([6, 40]);
+
+  const projected = points.map(d => {
+    const [px, py] = projection([d.lon, d.lat]);
+    return { ...d, px, py };
+  }).filter(d => d.px && d.py);
+
+  const humans = projected.filter(d => d.type === 'human');
+  const machines = projected.filter(d => d.type === 'machine');
+
+  g.selectAll('.obs-human')
+    .data(humans, d => `${d.lon}_${d.lat}`)
+    .join(
+      enter => enter.append('circle')
+        .attr('class', 'obs-human')
+        .attr('cx', d => d.px).attr('cy', d => d.py)
+        .attr('r', 0).attr('fill', COLOR.human).attr('opacity', 0.75)
+        .call(e => e.transition().duration(TRANSITION_DURATION).attr('r', d => sizeScale(d.count))),
+      update => update.call(u => u.transition().duration(TRANSITION_DURATION)
+        .attr('cx', d => d.px).attr('cy', d => d.py).attr('r', d => sizeScale(d.count))),
+      exit => exit.call(e => e.transition().duration(TRANSITION_DURATION).attr('r', 0).remove())
+    );
+
+  g.selectAll('.obs-machine')
+    .data(machines, d => `${d.lon}_${d.lat}`)
+    .join(
+      enter => enter.append('circle')
+        .attr('class', 'obs-machine')
+        .attr('cx', d => d.px).attr('cy', d => d.py)
+        .attr('r', 0).attr('fill', COLOR.machine).attr('opacity', 0.75)
+        .call(e => e.transition().duration(TRANSITION_DURATION).attr('r', d => sizeScale(d.count))),
+      update => update.call(u => u.transition().duration(TRANSITION_DURATION)
+        .attr('cx', d => d.px).attr('cy', d => d.py).attr('r', d => sizeScale(d.count))),
+      exit => exit.call(e => e.transition().duration(TRANSITION_DURATION).attr('r', 0).remove())
+    );
+}
+
+// ─── RESET FROM ACCUMULATED ────────────────────────────────────────────────
+function resetFromAccumulated() {
+  // Hide overlay
+  d3.select('#accumulated-overlay')
+    .transition().duration(TRANSITION_DURATION)
+    .attr('opacity', 0);
+
+  // Restore indicator line
+  d3.select('#indicator-line')
+    .transition().duration(TRANSITION_DURATION)
+    .attr('opacity', 0.6);
+
+  // Restore indicator dot
+  d3.select('#indicator-dot')
+    .transition().duration(TRANSITION_DURATION)
+    .attr('r', 6);
+}
+
+// ─── ANIMATION ────────────────────────────────────────────────────────────────
+function playAnimation() {
+  playing = true;
+  currentMonth = 0;
+  updateMonth(0);
+  scheduleNext();
+}
+
+function scheduleNext() {
+  if (!playing) return;
+
+  timer = setTimeout(() => {
+    const next = (currentMonth + 1) % 12;
+    updateMonth(next);
+
+    if (next === 11) {
+      // After December, show accumulated state
+      timer = setTimeout(() => {
+        if (!playing) return;
+        showAccumulated();
+        // Pause 3.5s on accumulated, then reset and loop
+        timer = setTimeout(() => {
+          if (!playing) return;
+          resetFromAccumulated();
+          currentMonth = 0;
+          updateMonth(0);
+          scheduleNext();
+        }, ACCUMULATED_PAUSE);
+      }, MONTH_HOLD + TRANSITION_DURATION);
+    } else {
+      scheduleNext();
+    }
+  }, MONTH_HOLD + TRANSITION_DURATION);
+}
+
+function pause() {
+  playing = false;
+  if (timer) clearTimeout(timer);
+}
+
+function restart() {
+  pause();
+  currentMonth = 0;
+  playAnimation();
+}
+
+// Expose controls
+window.mantaViz = { play: playAnimation, pause, restart };
+</script>
+</body>
+</html>
